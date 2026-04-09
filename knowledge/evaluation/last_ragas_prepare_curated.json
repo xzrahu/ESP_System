@@ -1,0 +1,192 @@
+{
+  "summary": {
+    "dataset": "evaluation/sample_ragas_dataset.jsonl",
+    "total_samples": 5,
+    "metrics": [
+      "answer_relevancy",
+      "faithfulness",
+      "context_precision",
+      "context_recall",
+      "answer_correctness"
+    ],
+    "prepare_only": true,
+    "query_backend": "in_memory_llamaindex"
+  },
+  "records": [
+    {
+      "user_input": "开机之后无任何反应怎么办？",
+      "response": "如果开机后设备无任何反应且主机灯未亮起，可尝试以下步骤排查：\n\n1. **检查电源连接**  \n   确保电源线已正确插入主机电源接口和电源插座，避免因接触不良导致供电中断。\n\n2. **消除静电干扰**  \n   断开电源线后，连续多次按下电源开关（约5-10次），以释放可能积累的静电。重新连接电源线后再次尝试开机。\n\n此方法适用于联想3000系列台式机、Idea Centre、锋行及家悦系列台式电脑。若问题仍未解决，建议进一步检查电源或硬件故障。",
+      "retrieved_contexts": [
+        "# 知识库 798\n\n## 标题\n联想ET360摄像头用户使用手册\n\n## 问题描述\n联想ET360摄像头用户使用手册。\n\n## 分类\n主类别: 内置设备\n子类别: 摄像头\n\n## 关键词\nET360, 摄像头, 手册, pdf\n\n## 元信息\n创建时间:2024-12-15|版本:1.0\n\n## 解决方案\n联想ET360摄像头[用户使用手册](https://webdoc.lenovo.com.cn/lenovowsi/cskb/data/2004-12-13/13542/_联想ET360 用户使用手册.pdf).pdf\n\n<!-- 文档主题：联想ET360摄像头用户使用手册 (知识库库编号: 798) -->",
+        "# 知识库 4\n\n## 标题\n开机之后无任何反应怎么办？\n\n## 问题描述\nNone\n\n## 关键词\nNone\n\n## 元信息\n创建时间:2024-12-15|版本:1.0\n\n## 解决方案\n  \n\n**故障描述：**开机没有任何反应，主机灯不亮\n\n  \n\n**适用范围：**3000系列台式电脑、Idea Centre、锋行和家悦台式电脑。\n\n  \n\n**解决方案：**\n\n  \n\n第一步：检查电源线（主机接口和插线板）是否正常连接；\n\n  \n\n第二步：断开电源线，多按几次电源开关，消除静电屏蔽，释放静电，连接电源线，开机重试。\n\n<!-- 文档主题：开机之后无任何反应怎么办？ (知识库库编号: 4) -->",
+        "# 知识库 16\n\n## 标题\n为什么 Word 2010/2007 中插入的图片都变成空白框了？\n\n## 问题描述\n修改Word 设置来解决Word 2010中插入的图片变成白框的问题。\n\n## 分类\n主类别: 预装软件\n子类别: Office软件\n\n## 关键词\n插入图片, Word 2010, Word 2007, 白框\n\n## 元信息\n创建时间:2024-12-15|版本:1.0\n\n## 解决方案\n**故障现象：**在 Word 2010/2007 中点击“插入-图片”向文档中添加图片时，图片仅显示为空白边框？为什么会这样呢？\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/20120507/1336357483656_708.png)\n\n**解决方案：**\n\n当内存不够或者 Word 程序崩溃时，可能会导致系统对程序默认设置的更改。对于上面这个问题，我们需要检查一下“**显示图片框**”项是否被勾选。\n\n对于 Word 2010，单击“**文件-选项**”。\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/20120507/1336357483656_132.png)\n\n对于 Word 2007，按一下 Office 按钮，然后单击“**Word 选项**”。\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/20120507/1336357483656_700.png)\n\n单击“**高级**”，然后从右边细节窗口找到“**显示文档内容**”部分，取消对“**显示图片框**”的勾选 。按“**确定**”保存更改。\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/20120507/1336357483656_156.png)\n\n现在图片就能正常显示了。\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/20120507/1336357483656_203.png)\n\n来源：[微软知识库](http://support.microsoft.com/kb/2701841/zh-cn)\n\n<!-- 文档主题：为什么 Word 2010/2007 中插入的图片都变成空白框了？ (知识库库编号: 16) -->",
+        "# 知识库 433\n\n## 标题\n联想手机A288t无线网络无法连接或无法上网如何解决\n\n## 问题描述\nA288t在使用过程中，如出现无法连接到无线网络或者已连接到无线网络但无法上网的情况。\n\n## 分类\n主类别: 操作系统故障\n子类别: 系统应用操作\n\n## 关键词\n联想手机, A288t, 无线网络, 无法连接, 无法上网\n\n## 元信息\n创建时间:2024-12-15|版本:1.0\n\n## 解决方案\nA288t在使用过程中，如出现无法连接到无线网络或者已连接到无线网络但无法上网的情况，可参考以下操作：\n\n一、无法连接到无线网络\n\n1、如提示“已停用”，请确保连接无线网络时输入的密码是否正确，输入密码时勾选“显示密码”选项，因为在使用过程中发现在输入密码时拼音大小写容易混淆，导致密码输入错误。\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/20150105/1420438639571_496.jpg)![](https://webdoc.lenovo.com.cn/lenovowsi/20150105/1420438639571_947.jpg)\n\n2、部分无线网络可能对设备的接入作了限定，如设置了[物理地址](/detail/kd_18119.html)得[绑定](/detail/kd_18083.html)等。此时需要咨询网络服务商或您公司的IT部门，商议能否添加您手机的访问权限或取消相应的限制。\n\n3、确认无线网络的名称是否为中文，一般情况下是不能使用中文的，如为中文，请更改为英文或数字后再尝试连接。\n\n4、如手机之前能正常连接使用无线功能，因某些原因无法连接上，建议先确认是否之前对手机或无线[路由器](/detail/kd_17368.html)做过什么操作导致，此时可尝试将手机设备[重启](/detail/kd_17977.html)或[备份](/detail/kd_17770.html)重要数据后通过路径“设置-隐私权-恢复出厂设置”恢复出厂设置。问题依然存在的话，可再尝试将路由器重启或是恢复出厂设置。如此可达到取消已连接的记忆，并重新再次连接的目的。\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/20150105/1420438639571_81.jpg)![](https://webdoc.lenovo.com.cn/lenovowsi/20150105/1420438639571_132.jpg)\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/20150105/1420438639571_195.jpg)!",
+        "# 知识库 643\n\n## 标题\nWindows 7系统下天气小工具提示“您所在的地区无法使用服务”无法正常使用的案例分析\n\n## 问题描述\nwin在使用微软原带桌面小工具中的 天气 小工具无法使用，显示&amp;#34;您所在的地区无法使用服务&amp;#34;\n\n## 分类\n主类别: 操作系统故障\n子类别: 系统应用操作\n\n## 关键词\nwin7, 天气小工具, 您所在的地区无法使用服务, 天气\n\n## 元信息\n创建时间:2024-12-15|版本:2.0\n\n## 解决方案\n**现象描述：**\n\nWindows 7上市以来，在使用微软原带桌面小工具中的 天气 小工具无法使用，显示\"您所在的地区无法使用服务\"\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/uploadimages/2010-09-29/KjXhMOzpaQ1jNHm8.jpg)\n\n**解决方案：**\n\n1、先下载本篇文章中附件；\n\n2、双击运行附件修复程序，点安装进行修复即可。\n\n修复后如图：\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/uploadimages/2010-09-29/z4ao9XlgiGoG1M6a.jpg)\n\n（修复后关闭天气小工具重新打开即可，如果无效可以重新运行。）\n\n**操作解析：**\n\n设置需要显示的地区，如图点扳手状的设置按钮；\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/uploadimages/2010-09-29/X3QPcaTLbEmhh380.jpg)\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/uploadimages/2010-09-29/518t5ClJDGHCFhNQ.jpg)\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/uploadimages/2010-09-29/35ihzhK9hWkWUTS1.jpg)\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/uploadimages/2010-09-29/pf4wsVdCt1OWQhn7.jpg)\n\n![](/ueditor/dialogs/attachment/fileTypeImages/icon_rar.gif)[**微软自带天气预报\\_修正.rar**](https://chinakb.lenovo.com.cn/ueditor/php/upload/file/20190704/1562232978146163.rar \"微软自带天气预报_修正.rar\")\n\n<!-- 文档主题：Windows 7系统下天气小工具提示“您所在的地区无法使用服务”无法正常使用的案例分析 (知识库库编号: 643) -->"
+      ],
+      "reference": "可先检查主机接口和插线板的电源线是否连接正常；若仍无反应，可断开电源并多按几次电源键释放静电后，再重新接电开机测试。",
+      "reference_contexts": [
+        "开机无反应时，优先排查供电连接；若疑似静电导致，可断电后按电源键释放静电再重试。"
+      ],
+      "metadata": {
+        "topic": "power_on_failure",
+        "difficulty": "easy",
+        "source_title": "开机之后无任何反应怎么办？"
+      },
+      "retrieved_titles": [
+        "联想ET360摄像头用户使用手册",
+        "开机之后无任何反应怎么办？",
+        "为什么 Word 2010-2007 中插入的图片都变成空白框了？",
+        "联想手机A288t无线网络无法连接或无法上网如何解决",
+        "Windows 7系统下天气小工具提示“您所在的地区无法使用服务”无法正常使用的案例分析"
+      ],
+      "retrieved_paths": [
+        "D:\\ITF_improve\\bj250716\\its_multi_agent\\backend\\knowledge\\data\\crawl\\0798-联想ET360摄像头用户使用手册.md",
+        "D:\\ITF_improve\\bj250716\\its_multi_agent\\backend\\knowledge\\data\\crawl\\0004-开机之后无任何反应怎么办？.md",
+        "D:\\ITF_improve\\bj250716\\its_multi_agent\\backend\\knowledge\\data\\crawl\\0016-为什么 Word 2010-2007 中插入的图片都变成空白框了？.md",
+        "D:\\ITF_improve\\bj250716\\its_multi_agent\\backend\\knowledge\\data\\crawl\\0433-联想手机A288t无线网络无法连接或无法上网如何解决.md",
+        "D:\\ITF_improve\\bj250716\\its_multi_agent\\backend\\knowledge\\data\\crawl\\0643-Windows 7系统下天气小工具提示“您所在的地区无法使用服务”无法正常使用的案例分析.md"
+      ],
+      "query_backend": "in_memory_llamaindex"
+    },
+    {
+      "user_input": "如何去掉Outlook中的段落标记等符号？",
+      "response": "在Outlook中去除段落标记等符号的方法如下：  \n\n1. **新建邮件**：打开Outlook并创建一封新邮件。  \n2. **进入设置**：  \n   - 若使用Outlook 2010，点击“文件”选项卡，选择“选项”。  \n   - 若使用Outlook 2007，点击左上角的Office按钮，选择“编辑器选项”。  \n3. **调整显示选项**：在弹出的窗口中，找到左侧的“邮件”或“显示”设置项，进入“显示”窗格。  \n4. **取消勾选段落标记**：在“始终在屏幕上显示这些格式标记”列表中，取消勾选“段落标记”选项。  \n5. **保存设置**：关闭窗口并保存更改，段落标记将不再显示。  \n\n通过此方法，可同时隐藏其他编辑符号（如空格符、制表符等），使邮件内容更整洁。若需恢复显示，可重新勾选对应选项。",
+      "retrieved_contexts": [
+        "# 知识库 798\n\n## 标题\n联想ET360摄像头用户使用手册\n\n## 问题描述\n联想ET360摄像头用户使用手册。\n\n## 分类\n主类别: 内置设备\n子类别: 摄像头\n\n## 关键词\nET360, 摄像头, 手册, pdf\n\n## 元信息\n创建时间:2024-12-15|版本:1.0\n\n## 解决方案\n联想ET360摄像头[用户使用手册](https://webdoc.lenovo.com.cn/lenovowsi/cskb/data/2004-12-13/13542/_联想ET360 用户使用手册.pdf).pdf\n\n<!-- 文档主题：联想ET360摄像头用户使用手册 (知识库库编号: 798) -->",
+        "# 知识库 10\n\n## 标题\n如何去掉Outlook中的段落标记等符号?\n\n## 问题描述\n在Outlook中新建邮件时会显示很多段落标记，使行文看上去不怎么整洁。文中讲述消除的方法。\n\n## 分类\n主类别: 预装软件\n子类别: Office软件\n\n## 关键词\noffice, outlook, 段落标记, 符号\n\n## 元信息\n创建时间:2024-12-15|版本:1.0\n\n## 解决方案\n**故障现象:**\n\n如何去掉 Outlook 中的段落标记等符号。\n\n**解决方案:**\n\n**如何去掉 Outlook 中的段落标记等符号**  \n  \n![](http://support.microsoft.com/Library/Images/2690803.png)\n\n只要在编辑器中将它们隐藏就行了。具体如下：\n\n#### 对于 Outlook 2010\n\n新建一份电子邮件，打开“**文件**”选项卡，单击“**选项**”。\n\n![](http://support.microsoft.com/Library/Images/2690804.png)\n\n在选项窗口左侧单击“**邮件**”，按一下“**编辑器选项**”按钮。\n\n![](http://support.microsoft.com/Library/Images/2690805.png)\n\n“**显示**”窗格右侧有一个“**始终在屏幕上显示这些格式标记**”列表，取消对“**段落标记**”的勾选。\n\n![](http://support.microsoft.com/Library/Images/2690806.png)\n\n#### 对于 Outlook 2007\n\n建立一封新的电子邮件，按一下 Office 按钮，单击“**编辑器选项**”。\n\n![](http://support.microsoft.com/Library/Images/2690807.png)\n\n从左侧窗格中单击“**显示**”，然后取消对“**段落标记**”的勾选。\n\n![](http://support.microsoft.com/Library/Images/2690808.png)\n\n**PS：**对于邮件中的其它编辑符号，都可以通过取消相应勾选将其消除\n\n<!-- 文档主题：如何去掉Outlook中的段落标记等符号? (知识库库编号: 10) -->",
+        "文档来源:0040-如何控制 Internet Explorer 浏览器的进程数量？.md\n# 知识库 40\n\n## 标题\n如何控制 Internet Explorer 浏览器的进程数量？\n\n## 问题描述\n您希望了解有关如何控制、合并、减少这些 IEXPLORE.EXE 进程，使 Windows 在运行同时打开多个选项卡的 IE 9 或 IE 8 时使用尽量少的或唯一的 IEXPLORE.EXE 进程，那么您可以参考本文提供的信息。\n\n## 分类\n主类别: 操作系统故障\n子类别: 浏览器\n\n## 关键词\n控制, ie, 浏览器, 进程, 数量\n\n## 元信息\n创建时间:2024-12-15|版本:1.0",
+        "# 知识库 184\n\n## 标题\n智能电视遥控器比较费电怎么办？\n\n## 问题描述\n联想智能电视遥控器的耗电情况说明。\n\n## 分类\n主类别: 接口与外置设备\n子类别: 智能电视游戏手柄\n\n## 关键词\n联想, 智能电视, 特点, 功能, 网络, 高清, 视频, 遥控器, 电池, 电量\n\n## 元信息\n创建时间:2024-12-15|版本:1.0\n\n## 解决方案\n1、如果您使用的是[蓝牙](/detail/kd_17350.html)智能遥控器，进行语音输入、体感游戏以及网页浏览会加快遥控器对电池电量的消耗，故若您进行了较多的此类操作，您有可能需要经常更换遥控器或游戏手柄的电池，并不是故障。\n\n2、另外，请确保购买的电池是正品。如果仅做一些简单的观看电视操作而耗电仍然很快（一周左右没电），您可以向联想电视客服反馈处理。\n\n<!-- 文档主题：智能电视遥控器比较费电怎么办？ (知识库库编号: 184) -->",
+        "# 知识库 753\n\n## 标题\n纯平显示器与平面直角显示器的区别及判断方法\n\n## 问题描述\n本文介绍纯平与平面直角显示器的简易判断方法和应用常识。\n\n## 分类\n主类别: 产品介绍\n子类别: 用户手册\n\n## 关键词\n显示器, 纯平, 显像管, 屏幕\n\n## 元信息\n创建时间:2024-12-15|版本:1.0\n\n## 解决方案\n **问题描述** ：\n\n纯平显示器与平面直角显示器的区别及判断方法 。  \n  \n**解决方案** ：\n\n1、简易判断方法：联想纯平显示器会在外包装箱上标有\"XX寸（高亮）纯平显示器＂字样，而平面直角没有此字样，同时用肉眼观察也可以看出平面直角的屏幕四角是略微圆弧的，而纯平四角是直角的。   \n2、应用常识:平面直角显像管--它的屏幕实际上也是一个球体的一部分，只是这个球体的直径很大，使得屏幕看起来几乎是个平面。它消除了图象的变形，并避免了灯光的反射。纯平面的显像管--纯平显像管的优点在于画面清晰度高、画面扭曲度减少、色彩更真实、可视角度增大等目前主流的纯平显像管也可以被分为荫罩式（ShadowMask）显像管和荫栅式（Aperture-Grille）两种。\n\n<!-- 文档主题：纯平显示器与平面直角显示器的区别及判断方法 (知识库库编号: 753) -->"
+      ],
+      "reference": "在 Outlook 编辑器的显示设置中取消“段落标记”勾选即可隐藏这些编辑符号；Outlook 2010 可从“文件-选项-邮件-编辑器选项”进入，Outlook 2007 可从 Office 按钮中的“编辑器选项”进入。",
+      "reference_contexts": [
+        "Outlook 中显示的段落标记等符号，本质上是编辑标记；进入编辑器显示设置后取消对应选项即可隐藏。"
+      ],
+      "metadata": {
+        "topic": "outlook_format_marks",
+        "difficulty": "easy",
+        "source_title": "如何去掉Outlook中的段落标记等符号？"
+      },
+      "retrieved_titles": [
+        "联想ET360摄像头用户使用手册",
+        "如何去掉Outlook中的段落标记等符号-",
+        "如何控制 Internet Explorer 浏览器的进程数量？",
+        "智能电视遥控器比较费电怎么办？",
+        "纯平显示器与平面直角显示器的区别及判断方法"
+      ],
+      "retrieved_paths": [
+        "D:\\ITF_improve\\bj250716\\its_multi_agent\\backend\\knowledge\\data\\crawl\\0798-联想ET360摄像头用户使用手册.md",
+        "D:\\ITF_improve\\bj250716\\its_multi_agent\\backend\\knowledge\\data\\crawl\\0010-如何去掉Outlook中的段落标记等符号-.md",
+        "D:\\ITF_improve\\bj250716\\its_multi_agent\\backend\\knowledge\\data\\crawl\\0040-如何控制 Internet Explorer 浏览器的进程数量？.md",
+        "D:\\ITF_improve\\bj250716\\its_multi_agent\\backend\\knowledge\\data\\crawl\\0184-智能电视遥控器比较费电怎么办？.md",
+        "D:\\ITF_improve\\bj250716\\its_multi_agent\\backend\\knowledge\\data\\crawl\\0753-纯平显示器与平面直角显示器的区别及判断方法.md"
+      ],
+      "query_backend": "in_memory_llamaindex"
+    },
+    {
+      "user_input": "如何修改 Microsoft Word 的默认样式？",
+      "response": "要修改 Microsoft Word 的默认样式，可按照以下步骤操作：\n\n1. **打开样式管理窗口**  \n   启动 Word 后，点击顶部菜单栏的“开始”选项卡，在“样式”选项组右下角找到并单击小箭头按钮。或者直接使用键盘快捷键 **Ctrl+Alt+Shift+S** 调出“样式”窗口。\n\n2. **调整默认格式**  \n   在“样式”窗口底部点击“管理样式”按钮，进入设置界面。切换到“设置默认值”选项卡，可重新定义文档的默认格式，例如中西文字体、字号、段落对齐方式、行距等。\n\n3. **保存设置**  \n   完成调整后，选择新样式的应用范围（仅当前文档或所有新文档），点击“确定”保存更改。\n\n若需恢复系统默认样式，可删除 Word 的模板文件：  \n- 在 Windows 资源管理器地址栏输入 **%appdata%\\Microsoft\\Templates**，回车。  \n- 找到并删除 **Normal.dotm** 文件，重启 Word 即可重置为初始样式。",
+      "retrieved_contexts": [
+        "# 知识库 798\n\n## 标题\n联想ET360摄像头用户使用手册\n\n## 问题描述\n联想ET360摄像头用户使用手册。\n\n## 分类\n主类别: 内置设备\n子类别: 摄像头\n\n## 关键词\nET360, 摄像头, 手册, pdf\n\n## 元信息\n创建时间:2024-12-15|版本:1.0\n\n## 解决方案\n联想ET360摄像头[用户使用手册](https://webdoc.lenovo.com.cn/lenovowsi/cskb/data/2004-12-13/13542/_联想ET360 用户使用手册.pdf).pdf\n\n<!-- 文档主题：联想ET360摄像头用户使用手册 (知识库库编号: 798) -->",
+        "# 知识库 8\n\n## 标题\n如何修改 Microsoft Word 的默认样式？\n\n## 问题描述\n修改 Microsoft Word 的默认样式的操作步骤。\n\n## 分类\n主类别: 预装软件\n子类别: Office软件\n\n## 关键词\noffice, Word, 默认样式, 办公软件\n\n## 元信息\n创建时间:2024-12-15|版本:1.0\n\n## 解决方案\n**故障现象：**\n\n修改 Microsoft Word 的默认样式。  \n  \n**解决方案：**\n\n打开Word，在“**开始**”选项卡“**样式**”选项组右下角单击小箭头按钮。如下图所示：\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/20120412/1334222838203_280.png)\n\n或者直接在键盘上按组合键“**Ctrl+Alt+Shift+s**”调出“**样式**”窗口，单击底部“**管理样式**”按钮。\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/20120412/1334222838203_22.png)\n\n在“**管理样式**”窗口中，切换到“**设置默认值**”选项卡。我们可以在这里重新设置文档的默认格式，包括中西文字体，字号，段落位置，段落间距等。完成设置后，选择新样式的适用范围，最后单击“**确定**”保存设置就可以了。\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/20120412/1334222838203_973.png)\n\n有同学问：如果日后又想使用系统默认的样式，怎么还原回去？\n\n这个也简单的。在Windows资源管理器地址栏中输入路径**%appdata%\\\\microsoftemplates**，回车。找到并删除**Normal.dotm**，然后重新运行Word就可以回归默认样式了。\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/20120412/1334222838203_129.png) \n\n<!-- 文档主题：如何修改 Microsoft Word 的默认样式？ (知识库库编号: 8) -->",
+        "# 知识库 741\n\n## 标题\n“我的文档”误删除后如何恢复\n\n## 问题描述\n“我的文档”误删除后如何恢复\n\n## 分类\n主类别: 操作系统故障\n子类别: 系统应用操作\n\n## 关键词\n我的文档, 删除, 恢复, 操作系统\n\n## 元信息\n创建时间:2024-12-15|版本:1.0\n\n## 解决方案\n**解决方案 ：**\n\n1、以Win2000为例，资源管理器-->工具-->文件夹选项，再点击“查看”中“还原为默认值”后点击确定即可  。\n\n2、以WinXP为例，右击桌面-->显示属性-->桌面选项-->自定义桌面-->常规选项-->选中在桌面上显示“我的文档”即可。\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/uploadimages/2008-07-28/6soGn1hp0ukooRy4.jpg)\n\n<!-- 文档主题：“我的文档”误删除后如何恢复 (知识库库编号: 741) -->",
+        "# 知识库 335\n\n## 标题\n如何恢复QQ视频默认设置\n\n## 问题描述\n恢复QQ视频默认设置的方法。\n\n## 分类\n主类别: 第三方软件\n子类别: QQ\n\n## 关键词\nQQ, 默认设置, 密码, 管理, 设置, 显示, 硬件, Windows, 查看\n\n## 元信息\n创建时间:2024-12-15|版本:1.0\n\n## 解决方案\n**解决方案:**\n\n1、在QQ聊天窗口中，点击摄像头标识旁边的小箭头,弹出的下拉菜单中,点击“**视频设置**”；\n\n![](https://chinakb.lenovo.com.cn/ueditor/php/upload/image/20160331/1459424616958003.jpg)\n\n2、在弹出的“**语音视频**”对话框“**视频**”选项卡中，选择“**Lenovo EasyCamera**”（机型不同显示会有所不同），此时可以看到预览，然后点击“**画质调节**”按钮；\n\n![](https://chinakb.lenovo.com.cn/ueditor/php/upload/image/20160331/1459424616206534.jpg)\n\n注意：调整视频设置时一定要选择正确的视频设备如上图Lenovo EasyCamera，不能选择“**禁用**”，否则会提示“**启动摄像头失败，请检查驱动程序是否正确**”。\n\n3、在弹出的“**Tencent VQQ Video Capture属性**”对话框“**摄像头设置**”选项卡中，点击“**默认值**”回到默认设置；\n\n![](https://chinakb.lenovo.com.cn/ueditor/php/upload/image/20160331/1459424616226529.jpg)\n\n4、在弹出的“**Tencent VQQ Video Capture属性**”对话框“**高级选项**”选项卡中，点击“**默认值**”回到默认设置。\n\n![](https://chinakb.lenovo.com.cn/ueditor/php/upload/image/20160331/1459424616758344.jpg)\n\n<!-- 文档主题：如何恢复QQ视频默认设置 (知识库库编号: 335) -->",
+        "# 知识库 189\n\n## 标题\n智能电视中的天气预报如何修改默认城市？\n\n## 问题描述\n联想智能电视具有不少体贴的功能，天气预报就是一个，下面讲述智能电视中的天气预报如何修改默认城市？\n\n## 分类\n主类别: 操作系统故障\n子类别: 系统应用操作\n\n## 关键词\n联想, 智能电视, 特点, 功能, 网络, 高清, 视频, 天气预报, 默认\n\n## 元信息\n创建时间:2024-12-15|版本:1.0\n\n## 解决方案\n打开“设置”---“基本”，找到“城市设定”，可以修改。\n\n提示：有些机型，城市设定的位置偏下，可能要把设置项拉动到底部才能看到。\n\n<!-- 文档主题：智能电视中的天气预报如何修改默认城市？ (知识库库编号: 189) -->"
+      ],
+      "reference": "打开 Word 的样式窗格，进入“管理样式”中的“设置默认值”，即可调整默认字体、字号、段落位置和段落间距；若要恢复系统默认样式，可删除 `%appdata%\\microsoft\\templates\\Normal.dotm` 后重启 Word。",
+      "reference_contexts": [
+        "Word 默认样式可在“管理样式”的“设置默认值”中修改；如需恢复出厂默认，可删除 Normal.dotm 模板。"
+      ],
+      "metadata": {
+        "topic": "word_default_style",
+        "difficulty": "easy",
+        "source_title": "如何修改 Microsoft Word 的默认样式？"
+      },
+      "retrieved_titles": [
+        "联想ET360摄像头用户使用手册",
+        "如何修改 Microsoft Word 的默认样式？",
+        "“我的文档”误删除后如何恢复",
+        "如何恢复QQ视频默认设置",
+        "智能电视中的天气预报如何修改默认城市？"
+      ],
+      "retrieved_paths": [
+        "D:\\ITF_improve\\bj250716\\its_multi_agent\\backend\\knowledge\\data\\crawl\\0798-联想ET360摄像头用户使用手册.md",
+        "D:\\ITF_improve\\bj250716\\its_multi_agent\\backend\\knowledge\\data\\crawl\\0008-如何修改 Microsoft Word 的默认样式？.md",
+        "D:\\ITF_improve\\bj250716\\its_multi_agent\\backend\\knowledge\\data\\crawl\\0741-“我的文档”误删除后如何恢复.md",
+        "D:\\ITF_improve\\bj250716\\its_multi_agent\\backend\\knowledge\\data\\crawl\\0335-如何恢复QQ视频默认设置.md",
+        "D:\\ITF_improve\\bj250716\\its_multi_agent\\backend\\knowledge\\data\\crawl\\0189-智能电视中的天气预报如何修改默认城市？.md"
+      ],
+      "query_backend": "in_memory_llamaindex"
+    },
+    {
+      "user_input": "Visio 2010/2007 形状面板不见了怎么办？",
+      "response": "在 Visio 2010/2007 中，若左侧的“形状”面板意外关闭或隐藏，可通过以下步骤重新调出：  \n1. 打开 Visio 后，点击顶部菜单栏的“**视图**”选项卡。  \n2. 在“显示”功能区中，找到“**任务窗格**”选项。  \n3. 点击“任务窗格”后，从下拉列表中选择“**形状**”。  \n此时，左侧窗口会重新显示形状面板，可正常选择和使用形状元素。  \n\n若操作后仍无法显示，可尝试重置界面布局或检查软件是否异常退出后自动调整了默认设置。",
+      "retrieved_contexts": [
+        "# 知识库 798\n\n## 标题\n联想ET360摄像头用户使用手册\n\n## 问题描述\n联想ET360摄像头用户使用手册。\n\n## 分类\n主类别: 内置设备\n子类别: 摄像头\n\n## 关键词\nET360, 摄像头, 手册, pdf\n\n## 元信息\n创建时间:2024-12-15|版本:1.0\n\n## 解决方案\n联想ET360摄像头[用户使用手册](https://webdoc.lenovo.com.cn/lenovowsi/cskb/data/2004-12-13/13542/_联想ET360 用户使用手册.pdf).pdf\n\n<!-- 文档主题：联想ET360摄像头用户使用手册 (知识库库编号: 798) -->",
+        "# 知识库 200\n\n## 标题\n联想智能电视乐商店功能介绍及如何下载应用\n\n## 问题描述\n本文提供了联想智能电视乐商店功能介绍及下载应用指导。\n\n## 分类\n主类别: 预装软件\n子类别: 其他随机软件\n\n## 关键词\n联想, 智能电视, 乐商店, 应用下载\n\n## 元信息\n创建时间:2024-12-15|版本:1.0\n\n## 解决方案\n**相关文章**：\n\n[SD卡](/detail/kd_17461.html)（品式SDHC，32G以下）进入乐商店，点击应用图标；\n\n![](https://chinakb.lenovo.com.cn/ueditor/php/upload/image/20160115/1452846975230983.jpg)\n\n点击安装即可。\n\n![](https://chinakb.lenovo.com.cn/ueditor/php/upload/image/20160115/1452846976795711.jpg)\n\n安装过之后的软件会在右上角有消息提示已安装完成，这时候可以通过“更多”中找到并打开该软件了。\n\n![](https://chinakb.lenovo.com.cn/ueditor/php/upload/image/20160115/1452846976624163.jpg)\n\n**注**：以上功能需要联网状态下使用。\n\n<!-- 文档主题：联想智能电视乐商店功能介绍及如何下载应用 (知识库库编号: 200) -->",
+        "# 知识库 456\n\n## 标题\n联想手机P770充电总是显示不满如何解决\n\n## 问题描述\n联想手机P770充电总是显示不满，此情况与ROM有关，可参考下面方法解决。\n\n## 分类\n主类别: 操作系统故障\n子类别: 系统应用操作\n\n## 关键词\n联想手机, P770, 充电, 充不满电\n\n## 元信息\n创建时间:2024-12-15|版本:1.0\n\n## 解决方案\n**问题描述:**\n\nP770在使用过程当中出现充电总是显示不满的情况。\n\n**解决方案：**\n\n1、确认您所使用的充电器为购机时标配的充电器\n\n2、确定P770系统是否为P770\\_S124\\_130201或以上的版本，系统版本可通过路径“系统设置-关于手机-版本信息”查询\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/20150106/1420534952880_192.jpg)![](https://webdoc.lenovo.com.cn/lenovowsi/20150106/1420534952880_201.jpg)\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/20150106/1420534952880_195.jpg)\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/20150106/1420534952880_540.jpg)\n\n3、P770为P770\\_S124\\_130201之前的版本，可参照路径“系统设置-关于手机-系统更新”进行系统版本的升级。\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/20150106/1420534952880_758.jpg)![](https://webdoc.lenovo.com.cn/lenovowsi/20150106/1420534952880_854.jpg)\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/20150106/1420534952880_341.jpg)\n\n4、如果担心自行升级会存在风险或已确定手机系统为较新的版本（A765e\\_1\\_S\\_2\\_SS\\_0070\\_130222及以上）后，请到附近的联想手机售后维修站点进行升级或者维修。\n\n<!-- 文档主题：联想手机P770充电总是显示不满如何解决 (知识库库编号: 456) -->",
+        "# 知识库 16\n\n## 标题\n为什么 Word 2010/2007 中插入的图片都变成空白框了？\n\n## 问题描述\n修改Word 设置来解决Word 2010中插入的图片变成白框的问题。\n\n## 分类\n主类别: 预装软件\n子类别: Office软件\n\n## 关键词\n插入图片, Word 2010, Word 2007, 白框\n\n## 元信息\n创建时间:2024-12-15|版本:1.0\n\n## 解决方案\n**故障现象：**在 Word 2010/2007 中点击“插入-图片”向文档中添加图片时，图片仅显示为空白边框？为什么会这样呢？\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/20120507/1336357483656_708.png)\n\n**解决方案：**\n\n当内存不够或者 Word 程序崩溃时，可能会导致系统对程序默认设置的更改。对于上面这个问题，我们需要检查一下“**显示图片框**”项是否被勾选。\n\n对于 Word 2010，单击“**文件-选项**”。\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/20120507/1336357483656_132.png)\n\n对于 Word 2007，按一下 Office 按钮，然后单击“**Word 选项**”。\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/20120507/1336357483656_700.png)\n\n单击“**高级**”，然后从右边细节窗口找到“**显示文档内容**”部分，取消对“**显示图片框**”的勾选 。按“**确定**”保存更改。\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/20120507/1336357483656_156.png)\n\n现在图片就能正常显示了。\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/20120507/1336357483656_203.png)\n\n来源：[微软知识库](http://support.microsoft.com/kb/2701841/zh-cn)\n\n<!-- 文档主题：为什么 Word 2010/2007 中插入的图片都变成空白框了？ (知识库库编号: 16) -->",
+        "# 知识库 19\n\n## 标题\nVisio 2010/2007 形状面板不见了怎么办？\n\n## 问题描述\n本文介绍了Visio 2010/2007 形状面板消失的解决方法。\n\n## 分类\n主类别: 第三方软件\n子类别: 其他\n\n## 关键词\nVisio2010, Visio2007, 形状面板\n\n## 元信息\n创建时间:2024-12-15|版本:1.0\n\n## 解决方案\n形状面板Visio 打开后，通常窗口左侧会有一个“形状”面板，我们可以方便地从中选择需要的形状。\n\nVisio 打开后，通常窗口左侧会有一个**形状**”面板，我们可以方便地从中选择需要的形状。有时为了获得更大的版面空间或者不小心关闭了形状面板，怎么把它重新调出来？\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/20120604/1338796562875_427.png)\n\n我们可以从**视图**”中把它找出来。\n\n打开 Visio 后在**文件**”菜单右侧会有一系列[选项卡](/detail/kd_17796.html)：开始、插入、设计等等。单击打开**视图**”选项卡。\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/20120604/1338796562875_117.png)\n\n在**显示**”栏单击**任务窗格**”，从下拉菜单中点击**形状**”。\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/20120604/1338796562875_858.png)\n\n窗口左侧就会列出形状面板啦。\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/20120604/1338796562875_513.png)\n\n类似的，在 Visio 2007 中可以通过同样的操作来唤出形状面板。\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/20120604/1338796562875_456.png)\n\n来源：[微软知识库](http://support.microsoft.com/kb/2718393/zh-cn)\n\n<!-- 文档主题：Visio 2010/2007 形状面板不见了怎么办？ (知识库库编号: 19) -->"
+      ],
+      "reference": "在 Visio 的“视图”选项卡中打开任务窗格，再选择“形状”，即可重新显示左侧形状面板；Visio 2007 也可以通过类似方式将形状面板调出。",
+      "reference_contexts": [
+        "Visio 左侧形状面板丢失时，可通过“视图-任务窗格-形状”重新显示。"
+      ],
+      "metadata": {
+        "topic": "visio_shapes_panel",
+        "difficulty": "easy",
+        "source_title": "Visio 2010/2007 形状面板不见了怎么办？"
+      },
+      "retrieved_titles": [
+        "联想ET360摄像头用户使用手册",
+        "联想智能电视乐商店功能介绍及如何下载应用",
+        "联想手机P770充电总是显示不满如何解决",
+        "为什么 Word 2010-2007 中插入的图片都变成空白框了？",
+        "Visio 2010-2007 形状面板不见了怎么办？"
+      ],
+      "retrieved_paths": [
+        "D:\\ITF_improve\\bj250716\\its_multi_agent\\backend\\knowledge\\data\\crawl\\0798-联想ET360摄像头用户使用手册.md",
+        "D:\\ITF_improve\\bj250716\\its_multi_agent\\backend\\knowledge\\data\\crawl\\0200-联想智能电视乐商店功能介绍及如何下载应用.md",
+        "D:\\ITF_improve\\bj250716\\its_multi_agent\\backend\\knowledge\\data\\crawl\\0456-联想手机P770充电总是显示不满如何解决.md",
+        "D:\\ITF_improve\\bj250716\\its_multi_agent\\backend\\knowledge\\data\\crawl\\0016-为什么 Word 2010-2007 中插入的图片都变成空白框了？.md",
+        "D:\\ITF_improve\\bj250716\\its_multi_agent\\backend\\knowledge\\data\\crawl\\0019-Visio 2010-2007 形状面板不见了怎么办？.md"
+      ],
+      "query_backend": "in_memory_llamaindex"
+    },
+    {
+      "user_input": "如何在 OneNote 2010/2007 中输入复杂的数学公式？",
+      "response": "在 OneNote 2010/2007 中输入复杂的数学公式，可以通过以下步骤实现：  \n1. **使用公式工具**：打开 OneNote 后，点击菜单栏中的“插入”选项，选择“公式”以调用内置的公式编辑器。  \n2. **手写输入**：在公式编辑器中，直接通过键盘输入公式符号（如积分、矩阵等），或使用手写笔在触摸屏上书写公式，系统会自动识别并转换为标准格式。  \n3. **LaTeX 支持**：部分版本支持通过 LaTeX 语法输入公式，例如输入 `\\int` 生成积分符号，再通过组合其他符号构建复杂公式。  \n4. **调整格式**：利用公式工具中的对齐、大小和颜色选项，优化公式的显示效果。  \n5. **保存与复用**：输入完成后，可将公式保存为模板，便于后续重复使用。  \n\n若需更详细的操作说明，建议参考官方文档或相关教程。",
+      "retrieved_contexts": [
+        "# 知识库 798\n\n## 标题\n联想ET360摄像头用户使用手册\n\n## 问题描述\n联想ET360摄像头用户使用手册。\n\n## 分类\n主类别: 内置设备\n子类别: 摄像头\n\n## 关键词\nET360, 摄像头, 手册, pdf\n\n## 元信息\n创建时间:2024-12-15|版本:1.0\n\n## 解决方案\n联想ET360摄像头[用户使用手册](https://webdoc.lenovo.com.cn/lenovowsi/cskb/data/2004-12-13/13542/_联想ET360 用户使用手册.pdf).pdf\n\n<!-- 文档主题：联想ET360摄像头用户使用手册 (知识库库编号: 798) -->",
+        "文档来源:0693-Windows 2000蓝屏死机故障分析与排除.md\n# 知识库 693\n\n## 标题\nWindows 2000蓝屏死机故障分析与排除\n\n## 问题描述\nWindows 2000蓝屏死机故障分析与排除\n\n## 分类\n主类别: 操作系统故障\n子类别: 蓝屏死机\n\n## 关键词\nWindows 2000, 蓝屏, 死机, 分析\n\n## 元信息\n创建时间:2024-12-15|版本:1.0",
+        "# 知识库 391\n\n## 标题\n如何查找电脑麦克风的接口位置\n\n## 问题描述\n针对电脑我们经常需要用到麦克风，但是由于笔记本、一台机及台式机的位置不同，所以可能不是很好找，因此本文将大致介绍一下麦克风的位置。\n\n## 分类\n主类别: 内置设备\n子类别: 麦克风\n\n## 关键词\n麦克风, 耳机, 音频接口, 位置\n\n## 元信息\n创建时间:2024-12-15|版本:2.0\n\n## 解决方案\n**电脑麦克风接口的位置一般可按如下方式查找：**  \n  \n**笔记本电脑：**一般在电脑的左右侧或前方即可找到麦克/耳机音频接口，当前联想出售的笔记本电脑，麦克/耳机音频接口有以下两种方式：\n\n**方式一：**\n\n![](http://robotrs.lenovo.com.cn/ZmptY2NtYW5hZ2Vy/p4data/Rdata/Rfiles/361.files/image001.jpg)\n\n![1630921802109462.png](https://chinakb.lenovo.com.cn/ueditor/php/upload/image/20210906/1630921802109462.png \"1630921802109462.png\")\n\n**方式二：**\n\n![](http://robotrs.lenovo.com.cn/ZmptY2NtYW5hZ2Vy/p4data/Rdata/Rfiles/361.files/image002.jpg)\n\n**一体机电脑：**一般在屏幕左右侧或屏幕背后位置即可找到。  \n  \n**分体台式机：**一般在主机箱前面板、主机箱顶部或主机箱后方即可找到。\n\n<!-- 文档主题：如何查找电脑麦克风的接口位置 (知识库库编号: 391) -->",
+        "# 知识库 945\n\n## 标题\n如何在 Windows XP 中设置、查看、更改或删除文件和文件夹的特殊权限\n\n## 问题描述\n如何在 Windows XP 中设置、查看、更改或删除文件和文件夹的特殊权限。\n\n## 分类\n主类别: 操作系统故障\n子类别: 系统应用操作\n\n## 关键词\n设置, 查看, 文件夹, XP\n\n## 元信息\n创建时间:2024-12-15|版本:1.0\n\n## 解决方案\n如何在 Windows XP 中设置、查看、更改或删除文件和文件夹的特殊权限\n\n<!-- 文档主题：如何在 Windows XP 中设置、查看、更改或删除文件和文件夹的特殊权限 (知识库库编号: 945) -->",
+        "# 知识库 719\n\n## 标题\n如何在WINDOWS 2000SERVER下安装T168/T468的USB2.0驱动？\n\n## 问题描述\n本文简单介绍如何在WINDOWS 2000SERVER下安装T168/T468的USB2.0驱动。\n\n## 分类\n主类别: 其他硬件相关知识\n子类别: 驱动相关\n\n## 关键词\nWINDOWS 2000SERVER, 安装, T168, T468, USB2.0驱动\n\n## 元信息\n创建时间:2024-12-15|版本:1.0\n\n## 解决方案\n本文讲解如何在T168/T468[服务器](/detail/kd_17589.html)上安装[USB](/detail/kd_17416.html)2.0的[驱动](/detail/kd_17488.html)，安装以前先加载WINDOWS2000SERVER系统SP4补丁和芯片驱动，详细请参看附件。\n\n[**下载地址**](https://webdoc.lenovo.com.cn/lenovowsi/cskb/data/2004-09-07/11743/XX9T1KprKuo6qcRC.doc)\n\n<!-- 文档主题：如何在WINDOWS 2000SERVER下安装T168/T468的USB2.0驱动？ (知识库库编号: 719) -->"
+      ],
+      "reference": "可下载安装 Microsoft Mathematics Add-in，按向导完成安装并接受许可协议；安装完成后，OneNote 会新增“数学”选项卡，可更方便地输入复杂公式。",
+      "reference_contexts": [
+        "OneNote 原生数学公式能力有限，可通过安装 Microsoft Mathematics Add-in 扩展公式输入能力。"
+      ],
+      "metadata": {
+        "topic": "onenote_math_formula",
+        "difficulty": "medium",
+        "source_title": "如何在 OneNote 2010/2007 中输入复杂的数学公式？"
+      },
+      "retrieved_titles": [
+        "联想ET360摄像头用户使用手册",
+        "Windows 2000蓝屏死机故障分析与排除",
+        "如何查找电脑麦克风的接口位置",
+        "如何在 Windows XP 中设置、查看、更改或删除文件和文件夹的特殊权限",
+        "如何在WINDOWS 2000SERVER下安装T168-T468的USB2.0驱动？"
+      ],
+      "retrieved_paths": [
+        "D:\\ITF_improve\\bj250716\\its_multi_agent\\backend\\knowledge\\data\\crawl\\0798-联想ET360摄像头用户使用手册.md",
+        "D:\\ITF_improve\\bj250716\\its_multi_agent\\backend\\knowledge\\data\\crawl\\0693-Windows 2000蓝屏死机故障分析与排除.md",
+        "D:\\ITF_improve\\bj250716\\its_multi_agent\\backend\\knowledge\\data\\crawl\\0391-如何查找电脑麦克风的接口位置.md",
+        "D:\\ITF_improve\\bj250716\\its_multi_agent\\backend\\knowledge\\data\\crawl\\0945-如何在 Windows XP 中设置、查看、更改或删除文件和文件夹的特殊权限.md",
+        "D:\\ITF_improve\\bj250716\\its_multi_agent\\backend\\knowledge\\data\\crawl\\0719-如何在WINDOWS 2000SERVER下安装T168-T468的USB2.0驱动？.md"
+      ],
+      "query_backend": "in_memory_llamaindex"
+    }
+  ]
+}

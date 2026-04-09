@@ -1,0 +1,82 @@
+{
+  "summary": {
+    "dataset": "evaluation/sample_ragas_dataset.jsonl",
+    "total_samples": 2,
+    "metrics": [
+      "answer_relevancy",
+      "faithfulness",
+      "context_precision",
+      "context_recall",
+      "answer_correctness"
+    ],
+    "prepare_only": true
+  },
+  "records": [
+    {
+      "user_input": "开机蓝屏怎么办？",
+      "response": "当前知识库中没有与“开机蓝屏”直接相关的解决方案。建议检查硬件连接是否正常，或尝试进入安全模式排查软件冲突问题。若问题持续，需联系联想官方技术支持获取进一步帮助。",
+      "retrieved_contexts": [
+        "# 知识库 967\n\n## 标题\n万全T220 G5&#38;amp;#38;T270 G5快速安装指南\n\n## 问题描述\n万全T220 G5&#38;amp;#38;T270 G5快速安装指南。\n\n## 分类\n主类别: 预装软件\n子类别: 其他随机软件\n\n## 关键词\nT220, T270, G5, 安装指南, 服务器\n\n## 元信息\n创建时间:2024-12-15|版本:1.0\n\n## 解决方案\n附件为万全T220 G5&T270 G5快速安装指南。\n\n文件大小：600K\n\n格式：PDF\n\n附件：[软件](/detail/kd_17963.html)， 若没有安装， 请先安装该软件。推荐使用ACROBAT READER5.0及以上版本。\n\n<!-- 文档主题：万全T220 G5&#38;amp;#38;T270 G5快速安装指南 (知识库库编号: 967) -->",
+        "# 知识库 386\n\n## 标题\n笔记本电池不能充电\n\n## 问题描述\n笔记本电池不能充电的解决思路...1、请使用原厂标配的电池和电源适配器；2、请关闭电脑，然后重新插拔电源适配器的三个连接处。&amp;#38;#38;#38;#10;\n\n## 分类\n主类别: 内置设备\n子类别: 电池\n\n## 关键词\n笔记本, 电池, 不能充电, 电池充电\n\n## 元信息\n创建时间:2024-12-15|版本:4.0\n\n## 解决方案\n1、请使用原厂标配的电池和电源适配器；\n\n2、请关闭电脑，然后重新插拔电源适配器的三个连接处。如下图所示：\n\n[![电池位置](https://chinakb.lenovo.com.cn/ueditor/php/upload/image/20160121/1453358396388535.jpg)](/chinakb/356_files/1.jpg)\n\n![93120（新）.png](https://chinakb.lenovo.com.cn/chinakb/prod-api/file/downloadFile?key=uniko/IMAGE/bf7a5d9f2c4d7ad57f525fc15efaec3a-1700831790988.png&name=93120（新）.png)\n\n3、请关闭电脑并断开电源适配器，重新插拔电池，注意开启\"卡扣式开关”。（对于内置电池的电脑，请忽略此步骤）。\n\n[![电池位置](https://chinakb.lenovo.com.cn/ueditor/php/upload/image/20160121/1453358396254665.jpg)](/chinakb/356_files/2.jpg)\n\n4、如果电池长时间未使用，请在关机状态下充电8小时以上。\n\n<!-- 文档主题：笔记本电池不能充电 (知识库库编号: 386) -->",
+        "文档来源:0356-如何添加启用蓝牙的设备.md\n![](https://webdoc.lenovo.com.cn/lenovowsi/new_cskb/uploadfile/20160809104930921.png)\n\n14、知道自己蓝牙的品牌或者型号之后，就可以百度搜索适合自己的蓝牙驱动了，比如我就是搜索：realtek 蓝牙 win10 驱动，然后下载到了适合自己的WIn10的蓝牙驱动，下载安装成功之后，就可以正常的使用Win10的蓝牙了。\n\n![Win10蓝牙连接手机](https://webdoc.lenovo.com.cn/lenovowsi/new_cskb/uploadfile/20160105204409961014.png)",
+        "文档来源:0409-如何设置麦克风加强.md\n**Windows XP下**如何设置麦克风加强\n------------------------\n\n1、鼠标指向右下角状态栏音量图标![](http://robotrs.lenovo.com.cn/ZmptY2NtYW5hZ2Vy/p4data/Rdata/Rfiles/38.files/image001.jpg)单击右键,在弹出的菜单中点选“**调整音频属性**”；\n\n![](http://robotrs.lenovo.com.cn/ZmptY2NtYW5hZ2Vy/p4data/Rdata/Rfiles/38.files/image002.jpg)\n\n2、在弹出的“**声音和音频设备属性**”对话框中，点选“**音频**”选项卡，选中录音默认设备（根据机器配置不同会有Realtek、Conexant、IDT等字样），点击“**音量**”；\n\n![](http://robotrs.lenovo.com.cn/ZmptY2NtYW5hZ2Vy/p4data/Rdata/Rfiles/38.files/image003.jpg)\n\n3、在弹出的对话框中，点击“**选项**”,点选“**高级控制**”；\n\n![](http://robotrs.lenovo.com.cn/ZmptY2NtYW5hZ2Vy/p4data/Rdata/Rfiles/38.files/image004.jpg)\n\n4、会在下端显示“**高级**”按钮，点击“**高级**”按钮；\n\n![](http://robotrs.lenovo.com.cn/ZmptY2NtYW5hZ2Vy/p4data/Rdata/Rfiles/38.files/image005.jpg)\n\n5、如果要取消“**[麦克风](/detail/kd_17501.html)加强**”，直接取消下图中的勾选即可。反之，请勾选。\n\n![](http://robotrs.lenovo.com.cn/ZmptY2NtYW5hZ2Vy/p4data/Rdata/Rfiles/38.files/image006.jpg)\n\n<!-- 文档主题：如何设置麦克风加强 (知识库库编号: 409) -->",
+        "文档来源:0222-笔记本双显卡如何切换.md\n**强制省电显示** ---强制所有应用程序在集成显卡上运行\n\n**优化省电** ---已指定过“**高性能**”选项的程序运行在独立显卡上，其他程序运行在集成显卡上\n\n**最佳性能**---已指定过“**省电**”选项的程序运行在集成显卡上，其他程序运行在独立显卡上\n\n**最大化性能**---强制所有应用程序在独立显卡上运行\n\n![](http://robotrs.lenovo.com.cn/ZmptY2NtYW5hZ2Vy/p4data/Rdata/Rfiles/68.files/image023.jpg)\n\n<!-- 文档主题：笔记本双显卡如何切换 (知识库库编号: 222) -->"
+      ],
+      "reference": "可先记录蓝屏错误代码，尝试进入安全模式排查最近安装的驱动或软件，并检查内存、硬盘等硬件状态。",
+      "reference_contexts": [
+        "蓝屏故障排查通常需要先记录报错信息，再按驱动、系统变更和硬件状态逐步定位。"
+      ],
+      "metadata": {
+        "topic": "blue_screen",
+        "difficulty": "medium"
+      },
+      "retrieved_titles": [
+        "万全T220 G5&#38;amp;#38;T270 G5快速安装指南",
+        "笔记本电池不能充电",
+        "如何添加启用蓝牙的设备",
+        "如何设置麦克风加强",
+        "笔记本双显卡如何切换"
+      ],
+      "retrieved_paths": [
+        "D:\\ITF_improve\\bj250716\\its_multi_agent\\backend\\knowledge\\data\\crawl\\0967-万全T220 G5&#38;amp;#38;T270 G5快速安装指南.md",
+        "D:\\ITF_improve\\bj250716\\its_multi_agent\\backend\\knowledge\\data\\crawl\\0386-笔记本电池不能充电.md",
+        "D:\\ITF_improve\\bj250716\\its_multi_agent\\backend\\knowledge\\data\\crawl\\0356-如何添加启用蓝牙的设备.md",
+        "D:\\ITF_improve\\bj250716\\its_multi_agent\\backend\\knowledge\\data\\crawl\\0409-如何设置麦克风加强.md",
+        "D:\\ITF_improve\\bj250716\\its_multi_agent\\backend\\knowledge\\data\\crawl\\0222-笔记本双显卡如何切换.md"
+      ]
+    },
+    {
+      "user_input": "电脑无法正常启动怎么办？",
+      "response": "若电脑无法正常启动，可尝试以下步骤排查问题：  \n\n1. **断开外接设备**：关机后拔掉所有非必要外接设备（如U盘、打印机等），仅保留键盘、鼠标和显示器，避免硬件冲突导致启动异常。  \n\n2. **检查硬件兼容性**：若自行加装过内存、显卡等部件，建议在断电状态下移除，确认是否因硬件不兼容或故障引发问题。  \n\n3. **进入高级启动选项**：  \n   - 若系统能短暂启动到桌面，可通过“设置”→“更新和安全”→“恢复”→“高级启动”→“疑难解答”→“高级选项”→“启动设置”重启，进入带诊断功能的启动模式。  \n   - 若完全无法启动，需通过其他设备连接或使用系统安装介质尝试修复。  \n\n4. **执行“干净启动”**：在Windows启动时仅加载基本设备和服务，排除第三方软件或驱动冲突。具体方法为：  \n   - 进入“疑难解答”→“高级选项”→“启动设置”，重启后选择“启用安全模式”或“干净启动”选项。  \n\n5. **硬件维护**：若为联想笔记本且支持风扇除尘功能，可通过电源管理软件或触摸感应按钮切换至“除尘模式”，清理内部灰尘以防止过热导致的死机。  \n\n若以上步骤无效，建议联系专业技术人员进一步检测系统或硬件问题。",
+      "retrieved_contexts": [
+        "文档来源:0384-电脑经常死机.md\n## 解决方案\n经常死机可能是软硬件冲突，病毒等造成的。  \n  \n1、先关机并切断电源，拔掉外接设备（如：U盘，打印机等），键盘、鼠标、显示器除外；  \n  \n2、建议请操作经验丰富的亲友，在断电情况下去掉自行加装的部件（如：内存，显卡等）；  \n  \n3、将电脑设置为“干净启动模式”并驱动程序和启动程序来启动 Windows，这种启动方式就称为**“干净启动”**。使用干净启动过程启动计算机时，Microsoft Windows在启动时仅加载基本设备和服务。",
+        "文档来源:0464-风扇除尘功能说明：联想电源管理V1.0、V7.0、V8.0及早期机型除尘说明.md\n**三、电源管理V8.0版本执行除尘功能**![]()\n\n注：电源管理软件V8.0版本针对Windows 8系统设计。  \n  \n1、在任务栏托盘图标处，找到电源管理图标并双击运行电源管理软件；如图所示：\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/20150707/1436247689195_671.jpg)\n\n2、在弹出电源管理界面，找到“**风扇除尘**”模块中的**开始**”按钮并点击（注：若电脑不支持“**风扇除尘**”功能，在此界面上将不会显示此模块及操作按钮）；如图所示：\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/20150707/1436247689195_914.jpg)\n\n3、电脑将自动开启并进入风扇除尘。\n\n**四、早期IdeaPad Z360/Z460/Z465/Z560/Z565机型：**![]()\n\n1、上述机型若需要使用除尘功能，可通过键盘右上方的触摸感应式按钮进行快捷实现；如图所示：\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/20150707/1436247689195_740.jpg)\n\n2、在Windows系统下，若安装了电源管理软件，那么触摸“**智能降噪**”按钮将会切换不同的工作模式；  \n  \n正常模式显示图标，此时一键安静灯不亮；如图所示：\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/20150707/1436247689195_924.jpg)\n\n安静（或静音）模式，此时一键安静灯常亮；如图所示：\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/20150707/1436247689195_391.jpg)\n\n除尘模式，此时一键安静灯闪烁；如图所示：\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/20150707/1436247689195_213.jpg)\n\n3、当除尘模式启动后，风扇将会以高速运转和低速运转之间交替转动，使灰尘得以排放，整个过程需要几分钟时间，完成后将会返回原先已设定的模式下进行运转。\n\n[返回页首](#)",
+        "文档来源:0319-如何进入Windows高级选项菜单.md\n**Windows 10系统如下所示**\n\n**分两种情形:**系统可以启动到Windows桌面，以及系统无法启动到Windows桌面\n\n**Windows 10可以启动到桌面**[**点击这里**](https://robotrs.lenovo.com.cn/ZmptY2NtYW5hZ2Vy/p4data/Rdata/Rfiles/203.html#yxlm)\n\n**Windows 10已经无法启动到桌面**[**点击这里**](https://robotrs.lenovo.com.cn/ZmptY2NtYW5hZ2Vy/p4data/Rdata/Rfiles/203.html#wfqd)\n\n**情形一：Windows 10可以启动到桌面**\n\n1、进入Windows 10桌面后，点击开始菜单，然后再点击“设置”；\n\n![](https://robotrs.lenovo.com.cn/ZmptY2NtYW5hZ2Vy/p4data/Rdata/Rfiles/images/20170623/20150808155749001.png)\n\n2、然后选择“更新和安全”；\n\n![](https://robotrs.lenovo.com.cn/ZmptY2NtYW5hZ2Vy/p4data/Rdata/Rfiles/images/20170623/20150808155749002.png)\n\n3、在“更新和恢复”界面下点击“恢复”，然后在高级启动下面点击“立即重启”；\n\n![](https://robotrs.lenovo.com.cn/ZmptY2NtYW5hZ2Vy/p4data/Rdata/Rfiles/images/20170623/20150808155750003.png)\n\n4、选择一个选项，选择“疑难解答”；\n\n![](https://robotrs.lenovo.com.cn/ZmptY2NtYW5hZ2Vy/p4data/Rdata/Rfiles/images/20170623/20150808155750004.png)\n\n5、在“疑难解答”中点“高级选项”；\n\n![](https://robotrs.lenovo.com.cn/ZmptY2NtYW5hZ2Vy/p4data/Rdata/Rfiles/images/20170623/20150808155750005.png)\n\n6、在高级选项中点击“启动设置”；\n\n![](https://robotrs.lenovo.com.cn/ZmptY2NtYW5hZ2Vy/p4data/Rdata/Rfiles/images/20170623/20150808155750006.jpg)\n\n7、点击“重启”按钮；\n\n![](https://robotrs.lenovo.com.cn/ZmptY2NtYW5hZ2Vy/p4data/Rdata/Rfiles/images/20170623/20150808155750007.jpg)\n\n8、电脑此时会重启，重启后即可进入Windows高级选项菜单界面，如下图所示：\n\n![](https://robotrs.lenovo.com.cn/ZmptY2NtYW5hZ2Vy/p4data/Rdata/Rfiles/images/20170623/20150808155751008.png)",
+        "文档来源:0384-电脑经常死机.md\n# 知识库 384\n\n## 标题\n电脑经常死机\n\n## 问题描述\n电脑经常死机可能是软硬件冲突，病毒等造成的，该如何解决呢？一起来看下本文……\n\n## 分类\n主类别: 操作系统故障\n子类别: 蓝屏死机\n\n## 关键词\n电脑, 死机, 干净启动, 系统配置, 联想笔记本无法开机一直黑屏\n\n## 元信息\n创建时间:2024-12-15|版本:5.0",
+        "文档来源:0356-如何添加启用蓝牙的设备.md\n![](https://webdoc.lenovo.com.cn/lenovowsi/new_cskb/uploadfile/20160809104930921.png)\n\n14、知道自己蓝牙的品牌或者型号之后，就可以百度搜索适合自己的蓝牙驱动了，比如我就是搜索：realtek 蓝牙 win10 驱动，然后下载到了适合自己的WIn10的蓝牙驱动，下载安装成功之后，就可以正常的使用Win10的蓝牙了。\n\n![Win10蓝牙连接手机](https://webdoc.lenovo.com.cn/lenovowsi/new_cskb/uploadfile/20160105204409961014.png)"
+      ],
+      "reference": "可先确认电源与外设连接是否正常，观察是否有报错提示，再根据现象尝试安全模式、系统修复或硬件排查。",
+      "reference_contexts": [
+        "启动故障通常应先做供电检查，再区分系统异常和硬件异常。"
+      ],
+      "metadata": {
+        "topic": "startup_failure",
+        "difficulty": "easy"
+      },
+      "retrieved_titles": [
+        "电脑经常死机",
+        "风扇除尘功能说明：联想电源管理V1.0、V7.0、V8.0及早期机型除尘说明",
+        "如何进入Windows高级选项菜单",
+        "电脑经常死机",
+        "如何添加启用蓝牙的设备"
+      ],
+      "retrieved_paths": [
+        "D:\\ITF_improve\\bj250716\\its_multi_agent\\backend\\knowledge\\data\\crawl\\0384-电脑经常死机.md",
+        "D:\\ITF_improve\\bj250716\\its_multi_agent\\backend\\knowledge\\data\\crawl\\0464-风扇除尘功能说明：联想电源管理V1.0、V7.0、V8.0及早期机型除尘说明.md",
+        "D:\\ITF_improve\\bj250716\\its_multi_agent\\backend\\knowledge\\data\\crawl\\0319-如何进入Windows高级选项菜单.md",
+        "D:\\ITF_improve\\bj250716\\its_multi_agent\\backend\\knowledge\\data\\crawl\\0384-电脑经常死机.md",
+        "D:\\ITF_improve\\bj250716\\its_multi_agent\\backend\\knowledge\\data\\crawl\\0356-如何添加启用蓝牙的设备.md"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "summary": {
+    "dataset": "evaluation/sample_ragas_dataset.jsonl",
+    "total_samples": 2,
+    "metrics": [
+      "answer_relevancy",
+      "faithfulness",
+      "context_precision",
+      "context_recall",
+      "answer_correctness"
+    ],
+    "prepare_only": false,
+    "query_backend": "in_memory_llamaindex",
+    "aggregate_metrics": {
+      "answer_relevancy": 0.48254304439654866,
+      "faithfulness": null,
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "answer_correctness": null
+    }
+  },
+  "records": [
+    {
+      "user_input": "开机蓝屏怎么办？",
+      "response": "若开机时出现蓝屏故障，可尝试以下解决方法：  \n1. **检查硬件连接**：确保硬盘数据线和电源线连接稳固，避免接触不良导致系统异常。  \n2. **调整BIOS设置**：  \n   - 重启设备并进入BIOS界面（通常通过开机时按F2或Del键）。  \n   - 定位硬盘控制器模式设置（如RAID/AHCI/SATA模式），尝试切换至与系统安装时一致的模式。  \n   - 保存设置并退出，观察是否恢复正常。  \n3. **更新驱动或系统**：若问题持续，可能需检查硬盘驱动程序是否兼容，或尝试修复系统文件（如使用Windows安装介质进入修复模式）。  \n4. **排查硬件故障**：若上述步骤无效，建议检测硬盘健康状态或联系专业技术人员进一步诊断。",
+      "retrieved_contexts": [
+        "# 知识库 392\n\n## 标题\n如何使用联想人脸识别（VeriFace）功能\n\n## 问题描述\n当您完成安装联想VeriFace 软件后，将自动运行录入人像向导，您也可以通过点击桌面上的快捷图标 ，然后点击如下图中的录入人像按钮录入多个人像。\n\n## 分类\n主类别: 预装软件\n子类别: 人像识别\n\n## 关键词\n联想人脸识别, veriface\n\n## 元信息\n创建时间:2025-09-11|版本:3.0\n\n## 解决方案\n**相关文章**:\n\n[新版Veriface Pro（人像识别）软件介绍](https://iknow.lenovo.com.cn/detail/117445)　　[人像识别不准](https://iknow.lenovo.com.cn/detail/TS0355)\n\n[veriface开机报错](https://iknow.lenovo.com.cn/detail/086824)　　[人像识别软件不能登记（注册）人像信息](https://iknow.lenovo.com.cn/detail/TS0356)\n\n**[如何录入人像](#一)  \n  \n[如何使用人像识别登录系统](#二)  \n  \n[关于人像识别的其他功能](#三)**\n\n**一、如何录入人像**  \n  \n当您完成安装联想VeriFace 软件后，将自动运行录入人像向导，您也可以通过点击桌面上的快捷图标 ![](http://robotrs.lenovo.com.cn/ZmptY2NtYW5hZ2Vy/p4data/Rdata/Rfiles/362.files/image001.jpg)，然后点击如下图中的录入人像按钮录入多个人像。录入的人像会以列表的形式显示，单击人像右下角的X按钮可以删除人像。如果您想更新人像，选择一个已录入的人像后点击 更新人像按钮启动录入人像向导进行更新；如图所示：\n\n![](http://robotrs.lenovo.com.cn/ZmptY2NtYW5hZ2Vy/p4data/Rdata/Rfiles/362.files/image002.jpg)\n\n输入您的密码，然后点击界面下方的下一步。如果您的帐户尚未设置密码,VeriFace将提示您创建Windows帐户密码；如图所示：\n\n![](http://robotrs.lenovo.com.cn/ZmptY2NtYW5hZ2Vy/p4data/Rdata/Rfiles/362.files/image003.jpg)\n\n请仔细阅读注意事项，然后点击界面下方的按钮 ![](http://robotrs.lenovo.com.cn/ZmptY2NtYW5hZ2Vy/p4data/Rdata/Rfiles/362.files/image004.jpg)，开始录入人像（注意：光线是影响录入和识别效果的重要因素，请不要在过暗或者过亮的环境下录入人像）；如图所示：\n\n![](http://robotrs.lenovo.com.cn/ZmptY2NtYW5hZ2Vy/p4data/Rdata/Rfiles/362.files/image005.jpg)\n\n点击 完成 ，您就可以开始使用 VeriFace 软件了；如图所示：\n\n!",
+        "# 知识库 968\n\n## 标题\n票据打印机DP600、DP8000用户手册\n\n## 问题描述\n票据打印机DP600、DP8000用户手册。\n\n## 分类\n主类别: 接口与外置设备\n子类别: 打印机/扫描仪连接\n\n## 关键词\n票据, 打印机, DP600, DP8000, 手册\n\n## 元信息\n创建时间:2024-12-15|版本:1.0\n\n## 解决方案\n格式为PDF，请使用ACROBAT READER进行阅读。  \n  \n附件：[dp600 dp8000 用户手册](https://webdoc.lenovo.com.cn/lenovowsi/cskb/data/2005-04-08/15355/dp600 dp8000 用户手册.pdf)\n\n<!-- 文档主题：票据打印机DP600、DP8000用户手册 (知识库库编号: 968) -->",
+        "# 知识库 414\n\n## 标题\nWindows 7系统关闭触控屏的方法\n\n## 问题描述\n本文简单介绍Windows 7系统关闭触控屏的方法，希望对您有所帮助。\n\n## 分类\n主类别: 内置设备\n子类别: 触摸屏\n\n## 关键词\n软件, 功能, 技巧, Windows, 硬件, 触控屏, 触摸\n\n## 元信息\n创建时间:2024-12-15|版本:1.0\n\n## 解决方案\n**方法一：**\n\n一、打开控制面板，点击“笔和触摸”；\n\n![](http://robotrs.lenovo.com.cn/ZmptY2NtYW5hZ2Vy/p4data/Rdata/Rfiles/385.files/image001.jpg)\n\n二、打开的界面中，点击“触摸”，取消“将手指用作输入设备”勾选，点击“应用”，点击“确定”即可。\n\n![](http://robotrs.lenovo.com.cn/ZmptY2NtYW5hZ2Vy/p4data/Rdata/Rfiles/385.files/image002.jpg)\n\n**方法二：**  \n  \n右键点击“计算机”，选择“管理”---“服务和应用程序”---“服务”，将“Tablet PC Input Service”，“TABLET Service”，“TabletServiceISD”三项服务停用即可。\n\n![](http://robotrs.lenovo.com.cn/ZmptY2NtYW5hZ2Vy/p4data/Rdata/Rfiles/385.files/image004.jpg)\n\n注意：停用上述三项服务后，在控制面板中找不到“笔和触摸”选项。\n\n<!-- 文档主题：Windows 7系统关闭触控屏的方法 (知识库库编号: 414) -->",
+        "lenovo.com/down.html)**”。**\n\n**![](https://webdoc.lenovo.com.cn/lenovowsi/20140704/1404464553223_386.jpg)**\n\n**![](https://webdoc.lenovo.com.cn/lenovowsi/20140704/1404464553223_2.jpg)**\n\n**![](https://webdoc.lenovo.com.cn/lenovowsi/20140704/1404464553223_931.jpg)**\n\n**![](https://webdoc.lenovo.com.cn/lenovowsi/20140704/1404464553223_148.jpg)**\n\n**![](https://webdoc.lenovo.com.cn/lenovowsi/20140704/1404464553223_642.jpg)**\n\n**![](https://webdoc.lenovo.com.cn/lenovowsi/20140704/1404464553223_241.jpg)**\n\n**![](https://webdoc.lenovo.com.cn/lenovowsi/20140704/1404464553223_903.jpg)**\n\n**![](https://webdoc.lenovo.com.cn/lenovowsi/20140704/1404464553223_797.jpg)**\n\n<!-- 文档主题：手机使用中个人安全隐私如何保障？ (知识库库编号: 118) -->",
+        "[](http://robotrs.lenovo.com.cn/ZmptY2NtYW5hZ2Vy/p4data/Rdata/Rfiles/127.files/image001.jpg)\n\n![](http://robotrs.lenovo.com.cn/ZmptY2NtYW5hZ2Vy/p4data/Rdata/Rfiles/127.files/image002.jpg)\n\nB、BIOS设置中硬盘控制器选项和设置内容举例：\n\n![](http://robotrs.lenovo.com.cn/ZmptY2NtYW5hZ2Vy/p4data/Rdata/Rfiles/127.files/image003.jpg)\n\n![](http://robotrs.lenovo.com.cn/ZmptY2NtYW5hZ2Vy/p4data/Rdata/Rfiles/127.files/image004.jpg)\n\n![](http://robotrs.lenovo.com.cn/ZmptY2NtYW5hZ2Vy/p4data/Rdata/Rfiles/127.files/image005.jpg)\n\n![](http://robotrs.lenovo.com.cn/ZmptY2NtYW5hZ2Vy/p4data/Rdata/Rfiles/127.files/image006.jpg)\n\n![](http://robotrs.lenovo.com.cn/ZmptY2NtYW5hZ2Vy/p4data/Rdata/Rfiles/127.files/image007.jpg)\n\n<!-- 文档主题：台式和一体机蓝屏报错代码：0x0000007B (知识库库编号: 212) -->"
+      ],
+      "reference": "可先记录蓝屏错误代码，尝试进入安全模式排查最近安装的驱动或软件，并检查内存、硬盘等硬件状态。",
+      "reference_contexts": [
+        "蓝屏故障排查通常需要先记录报错信息，再按驱动、系统变更和硬件状态逐步定位。"
+      ],
+      "metadata": {
+        "topic": "blue_screen",
+        "difficulty": "medium"
+      },
+      "retrieved_titles": [
+        "如何使用联想人脸识别（VeriFace）功能",
+        "票据打印机DP600、DP8000用户手册",
+        "Windows 7系统关闭触控屏的方法",
+        "手机使用中个人安全隐私如何保障？",
+        "台式和一体机蓝屏报错代码：0x0000007B"
+      ],
+      "retrieved_paths": [
+        "D:\\ITF_improve\\bj250716\\its_multi_agent\\backend\\knowledge\\data\\crawl\\0392-如何使用联想人脸识别（VeriFace）功能.md",
+        "D:\\ITF_improve\\bj250716\\its_multi_agent\\backend\\knowledge\\data\\crawl\\0968-票据打印机DP600、DP8000用户手册.md",
+        "D:\\ITF_improve\\bj250716\\its_multi_agent\\backend\\knowledge\\data\\crawl\\0414-Windows 7系统关闭触控屏的方法.md",
+        "D:\\ITF_improve\\bj250716\\its_multi_agent\\backend\\knowledge\\data\\crawl\\0118-手机使用中个人安全隐私如何保障？.md",
+        "D:\\ITF_improve\\bj250716\\its_multi_agent\\backend\\knowledge\\data\\crawl\\0212-台式和一体机蓝屏报错代码：0x0000007B.md"
+      ],
+      "query_backend": "in_memory_llamaindex",
+      "answer_relevancy": 0.45632660249627244,
+      "faithfulness": null,
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "answer_correctness": null
+    },
+    {
+      "user_input": "电脑无法正常启动怎么办？",
+      "response": "若电脑无法正常启动，可尝试以下方法排查和解决问题：\n\n1. **检查启动设备顺序**  \n   - 重启电脑，在开机时反复按 **Del/F2/F12**（具体按键因主板品牌而异）进入 **BIOS/UEFI** 设置界面。  \n   - 在 **Boot（启动）** 选项卡中，确认硬盘（通常标记为 **HDD** 或 **Windows Boot Manager**）为第一启动设备。  \n   - 若外接存储设备（如U盘、阵列柜）被误设为优先启动项，需将其移至启动列表末尾或禁用。  \n   - 保存设置并退出，重启后观察是否恢复正常。\n\n2. **禁用异常自启动程序**  \n   - 按 **Win+R** 打开运行窗口，输入 **msconfig** 并回车。  \n   - 切换至 **启动** 选项卡，取消勾选可能导致冲突的程序（如不常用的软件或服务）。  \n   - 点击 **确定** 保存设置，重启电脑验证效果。\n\n3. **关闭系统自动重启功能**  \n   - 右键点击 **开始菜单** 中的 **计算机**，选择 **属性**。  \n   - 点击左侧 **高级系统设置**，在 **启动和故障恢复** 部分点击 **设置**。  \n   - 取消勾选 **自动重新启动** 选项，点击 **确定**。  \n   - 重启后，若系统崩溃可查看错误提示以定位问题。\n\n若以上方法无效，建议进一步检查硬件连接、系统文件完整性或尝试安全模式启动。",
+      "retrieved_contexts": [
+        "# 知识库 299\n\n## 标题\n如何使用msconfig设置开机启动项\n\n## 问题描述\n使用msconfig设置开机启动项的操作方法。\n\n## 分类\n主类别: 操作系统故障\n子类别: 系统应用操作\n\n## 关键词\nmsconfig, 开机启动, 开机自启动, 关机, 开机, 运行, 报错, 设置, 管理, Windows, 系统\n\n## 元信息\n创建时间:2024-12-15|版本:2.0\n\n## 解决方案\n本例以设置“飞信”启动项为例，其他启动项的操作方法类似。\n\n使用Windows系统自带的“系统设置”进行设置:\n\n**1、**点击“**开始**”--- “**运行**”，输入“**msconfig**”然后直接敲击键盘上的回车键；\n\n![](http://robotrs.lenovo.com.cn/ZmptY2NtYW5hZ2Vy/p4data/Rdata/Rfiles/158.files/image001.jpg)\n\n2、点击“**启动**”，将“**飞信**”相关的启动项“**Fetion**”勾选掉，然后单击“**确定**”，下次启动就不会自动启动了。\n\n![](http://robotrs.lenovo.com.cn/ZmptY2NtYW5hZ2Vy/p4data/Rdata/Rfiles/158.files/image002.jpg)\n\n<!-- 文档主题：如何使用msconfig设置开机启动项 (知识库库编号: 299) -->",
+        "# 知识库 9\n\n## 标题\n禁止Office的上传中心和OneNote开机自启动的方法\n\n## 问题描述\n禁止Office 2010的上传中心和 OneNote 2010 开机自启动的方法。\n\n## 分类\n主类别: 预装软件\n子类别: Office软件\n\n## 关键词\nOneNote, Office, 上传中心, 开机自启动\n\n## 元信息\n创建时间:2024-12-15|版本:1.0\n\n## 解决方案\n**故障现象：**\n\n开机时会自动启动黄色图标的Office2010上传中心和OneNote2010，不怎么常用还耽搁开机时间。  \n  \n![](https://webdoc.lenovo.com.cn/lenovowsi/20120412/1334223364359_856.png)  \n  \n**解决方案：**\n\n单击「**开始**」在“**开始搜索**”框中，键入**msconfig**，然后按**Enter**。\n\n或直接在键盘上按“**Win+R**”调出运行命令框，键入**msconfig**，然后按**Enter**。\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/20120412/1334223364359_709.png)\n\n切换到“**启动**”选项卡，在对话框中找到并清除以下复选框：\n\nMicrosoft OneNote\n\n位置C:\\\\Users\\\\username\\\\AppData\\\\Roaming\\\\Microsoft\\\\Windows\\\\StartMenu\\\\Programs\\\\Startup\n\nMicrosoft Office2010\n\n位置HKCU\\\\Software\\\\Microsoft\\\\Windows\\\\CurrentVersion\\\\Run。\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/20120412/1334223364359_398.png)\n\n最后重启计算机。\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/20120412/1334223364359_44.png)\n\n<!-- 文档主题：禁止Office的上传中心和OneNote开机自启动的方法 (知识库库编号: 9) -->",
+        "# 知识库 762\n\n## 标题\n服务器在主机外接SCSI卡连接SureSCSI310R阵列柜后，原系统无法正常启动。\n\n## 问题描述\n修改bios启动顺序，解决外接阵列卡无法正常启动。\n\n## 分类\n主类别: 操作系统故障\n子类别: 系统登录问题\n\n## 关键词\n服务器, SCSI，阵列，系统\n\n## 元信息\n创建时间:2024-12-15|版本:1.0\n\n## 解决方案\n解决方法：\n\n此问题是由于服务器主机的启动顺序造成的增加此阵列柜后系统从阵列柜启动造成无法引导;建议修改主机BIOS设置硬盘的引导顺序:把硬盘设置优先启动把SCSI卡阵列柜设置成不启动或非优先启动。\n\n<!-- 文档主题：服务器在主机外接SCSI卡连接SureSCSI310R阵列柜后，原系统无法正常启动。 (知识库库编号: 762) -->",
+        "# 知识库 322\n\n## 标题\nWindows 7 操作系统禁用“自动重新启动”功能\n\n## 问题描述\n在机器出现故障时，系统禁用“自动重新启动”功能可观察故障信息，方便分析故障原因，下面将指导Windows 7 操作系统禁用“自动重新启动”功能。\n\n## 分类\n主类别: 操作系统故障\n子类别: 系统应用操作\n\n## 关键词\n自动重新启动, 管理, 设置, 显示, 硬件, Windows 7, 查看\n\n## 元信息\n创建时间:2024-12-15|版本:2.0\n\n## 解决方案\n1、鼠标左键单击桌面左下角的“**开始**”按钮，在弹出菜单中的“**计算机**”点击鼠标右键，然后选择“**属性（R）**”；\n\n2、在弹出的系统窗口，点击左侧列表的“**高级系统设置**”；\n\n3、在弹出的系统属性对话框，点击[启动](/detail/kd_17514.html)和故障恢复下的“**设置（T）…**”按钮；\n\n4、在弹出的启动和故障恢复对话框，取消勾选“**自动重新启动（R）**”选项，最后点击“**确定**”按钮。\n\n5、设置完毕后，重新启动即可生效。\n\n<!-- 文档主题：Windows 7 操作系统禁用“自动重新启动”功能 (知识库库编号: 322) -->",
+        "# 知识库 259\n\n## 标题\nWindows 7操作系统中，禁用系统自启动应用程序的方法\n\n## 问题描述\nWindows 7操作系统中，禁用系统自启动应用程序的方法。\n\n## 分类\n主类别: 操作系统故障\n子类别: 系统应用操作\n\n## 关键词\nwin7, 操作系统, 禁用, 系统, 自启动, 应用程序\n\n## 元信息\n创建时间:2024-12-15|版本:1.0\n\n## 解决方案\n**相关文章：**\n\n[msconfig](/detail/kd_17782.html)”回车，打开[系统配置](/detail/kd_17540.html)。\n\n![](http://robotterm.ecare365.com/ZmptY2NtYW5hZ2Vy/p4data/Rdata/Rfiles/1.2_jyqdcx_Windows_7_SWS_WEB_WX.files/image001.jpg)\n\n![](http://robotterm.ecare365.com/ZmptY2NtYW5hZ2Vy/p4data/Rdata/Rfiles/1.2_jyqdcx_Windows_7_SWS_WEB_WX.files/image003.jpg)\n\n2、点击“**启动**”选项，找到需要禁用的应用程序，把前面的勾选去掉即可。\n\n![](http://robotterm.ecare365.com/ZmptY2NtYW5hZ2Vy/p4data/Rdata/Rfiles/1.2_jyqdcx_Windows_7_SWS_WEB_WX.files/image004.jpg)\n\n<!-- 文档主题：Windows 7操作系统中，禁用系统自启动应用程序的方法 (知识库库编号: 259) -->"
+      ],
+      "reference": "可先确认电源与外设连接是否正常，观察是否有报错提示，再根据现象尝试安全模式、系统修复或硬件排查。",
+      "reference_contexts": [
+        "启动故障通常应先做供电检查，再区分系统异常和硬件异常。"
+      ],
+      "metadata": {
+        "topic": "startup_failure",
+        "difficulty": "easy"
+      },
+      "retrieved_titles": [
+        "如何使用msconfig设置开机启动项",
+        "禁止Office的上传中心和OneNote开机自启动的方法",
+        "服务器在主机外接SCSI卡连接SureSCSI310R阵列柜后，原系统无法正常启动。",
+        "Windows 7 操作系统禁用“自动重新启动”功能",
+        "Windows 7操作系统中，禁用系统自启动应用程序的方法"
+      ],
+      "retrieved_paths": [
+        "D:\\ITF_improve\\bj250716\\its_multi_agent\\backend\\knowledge\\data\\crawl\\0299-如何使用msconfig设置开机启动项.md",
+        "D:\\ITF_improve\\bj250716\\its_multi_agent\\backend\\knowledge\\data\\crawl\\0009-禁止Office的上传中心和OneNote开机自启动的方法.md",
+        "D:\\ITF_improve\\bj250716\\its_multi_agent\\backend\\knowledge\\data\\crawl\\0762-服务器在主机外接SCSI卡连接SureSCSI310R阵列柜后，原系统无法正常启动。.md",
+        "D:\\ITF_improve\\bj250716\\its_multi_agent\\backend\\knowledge\\data\\crawl\\0322-Windows 7 操作系统禁用“自动重新启动”功能.md",
+        "D:\\ITF_improve\\bj250716\\its_multi_agent\\backend\\knowledge\\data\\crawl\\0259-Windows 7操作系统中，禁用系统自启动应用程序的方法.md"
+      ],
+      "query_backend": "in_memory_llamaindex",
+      "answer_relevancy": 0.5087594862968249,
+      "faithfulness": 0.7,
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "answer_correctness": 0.2806938557129319
+    }
+  ]
+}

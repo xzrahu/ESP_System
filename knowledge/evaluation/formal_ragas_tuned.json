@@ -1,0 +1,142 @@
+{
+  "summary": {
+    "dataset": "evaluation/sample_ragas_dataset.jsonl",
+    "total_samples": 4,
+    "metrics": [
+      "answer_relevancy",
+      "faithfulness"
+    ],
+    "prepare_only": false,
+    "query_backend": "in_memory_llamaindex",
+    "aggregate_metrics": {
+      "answer_relevancy": 0.5425825619702747,
+      "faithfulness": null
+    }
+  },
+  "records": [
+    {
+      "user_input": "开机之后无任何反应怎么办？",
+      "response": "如果设备开机后无任何反应，可尝试以下步骤排查：\n\n1. **检查电源连接**  \n   - 确保电源线与设备及插座连接稳固，尝试更换插座或电源线测试。\n\n2. **排除电池问题**  \n   - 若为手机或便携设备，确认电池是否耗尽，使用原装或兼容充电器充电30分钟后再尝试开机。\n\n3. **处理接触不良**  \n   - 拆卸电池后重新安装，若接触松动可尝试用纸片垫紧缝隙；若触点脏污，用酒精棉片清洁后再测试。\n\n4. **系统故障处理**  \n   - 若开机有画面但卡在启动界面（如品牌Logo），可尝试通过官方渠道恢复固件或重置系统（注意：此操作会清除数据）。\n\n5. **硬件检测**  \n   - 若上述方法无效，可能存在电源模块、主板或电池故障，建议联系专业维修人员检测。",
+      "retrieved_contexts": [
+        "# 知识库 4\n\n## 标题\n开机之后无任何反应怎么办？\n\n## 问题描述\nNone\n\n## 关键词\nNone\n\n## 元信息\n创建时间:2024-12-15|版本:1.0\n\n## 解决方案\n  \n\n**故障描述：**开机没有任何反应，主机灯不亮\n\n  \n\n**适用范围：**3000系列台式电脑、Idea Centre、锋行和家悦台式电脑。\n\n  \n\n**解决方案：**\n\n  \n\n第一步：检查电源线（主机接口和插线板）是否正常连接；\n\n  \n\n第二步：断开电源线，多按几次电源开关，消除静电屏蔽，释放静电，连接电源线，开机重试。\n\n<!-- 文档主题：开机之后无任何反应怎么办？ (知识库库编号: 4) -->",
+        "# 知识库 439\n\n## 标题\n联想手机A520不能开机如何解决\n\n## 问题描述\n联想手机A520不能开机如何解决的操作方法指导。\n\n## 分类\n主类别: 操作系统故障\n子类别: 系统应用操作\n\n## 关键词\n联想手机, A520, 无法开机, 联想, VIBE, 特色, 功能, ROM, 管理, 设置\n\n## 元信息\n创建时间:2024-12-15|版本:1.0\n\n## 解决方案\nA520使用过程中，如果突然出现不能开机的情况，可参考以下操作：\n\n1、如屏幕无任何反应，先确保手机电池是否已耗完。建议使用标配充电器或万能充电器充电30分钟左右后测试，验证是否能够实现开机。\n\n2、如电池有电但开机仍无任何反应，可能是电池接触不良导致，建议取出电池重新安装后验证，如太松接触不良，可尝试在缝隙中塞张纸片验证；若触点脏了，可尝试用酒精清理拭擦触点后测试。也不排除为电池故障导致，条件允许的话建议更换电池测试。\n\n3、如开机有画面，但卡在 “乐”界面无法进入系统，可重新刷入官方固件解决，自行[刷机](/detail/kd_17802.html)风险较大，建议到附近的联想售后维修站点进行检测与维修。\n\n4、可能安装了第三方[软件](/detail/kd_17963.html)后，存在病毒或者[兼容](/detail/kd_17510.html)性问题导致。如并非每次开机都无法成功，可在成功开机后，通过如乐商店、google电子市场等正规途径下载安装杀毒软件进行病毒查杀或者通过路径“系统设置-隐私权-恢复出厂设置”进行出厂设置恢复后解决（需要注意的是执行此操作后，手机内的全部数据将会被清除）。\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/20150105/1420445822881_746.jpg)![](https://webdoc.lenovo.com.cn/lenovowsi/20150105/1420445822881_499.jpg)\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/20150105/1420445822881_739.jpg)\n\n5、如果问题依然存在，可联系附近的[联想售后维修站点](http://appserver.lenovo.com.cn/LenovoMap/LenovoMap_Service.aspx)检测维修。\n\n<!-- 文档主题：联想手机A520不能开机如何解决 (知识库库编号: 439) -->",
+        "# 知识库 450\n\n## 标题\n联想手机S680不能开机如何解决\n\n## 问题描述\nS680使用过程中，如果突然出现不能开机的情况,如屏幕无任何反应,开机有画面，但卡在 “乐”界面无法进入系统的解决方案。\n\n## 分类\n主类别: 操作系统故障\n子类别: 系统应用操作\n\n## 关键词\n联想手机, S680, 不能开机, ROM, 管理, 设置\n\n## 元信息\n创建时间:2024-12-15|版本:1.0\n\n## 解决方案\nS680使用过程中，如果突然出现不能开机的情况，可参考以下操作：\n\n1、如屏幕无任何反应，先确保手机电池是否已耗完。建议使用标配充电器或万能充电器充电30分钟左右后测试，验证是否能够实现开机。\n\n2、如电池有电但开机仍无任何反应，可能是电池接触不良导致，建议取出电池重新安装后验证，如太松接触不良，可尝试在缝隙中塞张纸片验证；若触点脏了，可尝试用酒精清理拭擦触点后测试。也不排除为电池故障导致，条件允许的话建议更换电池测试。\n\n3、如开机有画面，但卡在“乐”界面无法进入系统，可重新刷入官方固件解决，自行[刷机](/detail/kd_17802.html)风险较大，建议到附近的联想售后维修站点进行检测与维修。\n\n4、可能安装了第三方[软件](/detail/kd_17963.html)后，存在病毒或者[兼容](/detail/kd_17510.html)性问题导致。如并非每次开机都无法成功，可在成功开机后，通过如乐商店、google电子市场等正规途径下载安装杀毒软件进行病毒查杀或者通过路径“设置-[备份](/detail/kd_17770.html)与重置-恢复出厂设置”进行出厂设置恢复后解决（需要注意的是执行此操作后，手机内的全部数据将会被清除）。\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/20150106/1420529176696_67.jpg)![](https://webdoc.lenovo.com.cn/lenovowsi/20150106/1420529176696_982.jpg)\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/20150106/1420529176696_884.jpg)\n\n5、如果问题依然存在，可联系附近的[联想售后维修站点检测维修。](http://appserver.lenovo.com.cn/LenovoMap/LenovoMap_Service.aspx)\n\n<!-- 文档主题：联想手机S680不能开机如何解决 (知识库库编号: 450) -->"
+      ],
+      "reference": "若电脑开机后无任何反应且主机指示灯未亮，可先检查主机接口与插线板的电源线是否连接正常；若仍无反应，可断开电源后多按几次电源键释放静电，再重新接电开机测试。",
+      "reference_contexts": [
+        "开机无反应时应先检查供电连接；若疑似静电干扰，可断电后按电源键释放静电再重试。"
+      ],
+      "metadata": {
+        "topic": "power_on_failure",
+        "difficulty": "easy",
+        "source_title": "开机之后无任何反应怎么办？"
+      },
+      "retrieved_titles": [
+        "开机之后无任何反应怎么办？",
+        "联想手机A520不能开机如何解决",
+        "联想手机S680不能开机如何解决"
+      ],
+      "retrieved_paths": [
+        "D:\\ITF_improve\\bj250716\\its_multi_agent\\backend\\knowledge\\data\\crawl\\0004-开机之后无任何反应怎么办？.md",
+        "D:\\ITF_improve\\bj250716\\its_multi_agent\\backend\\knowledge\\data\\crawl\\0439-联想手机A520不能开机如何解决.md",
+        "D:\\ITF_improve\\bj250716\\its_multi_agent\\backend\\knowledge\\data\\crawl\\0450-联想手机S680不能开机如何解决.md"
+      ],
+      "query_backend": "in_memory_llamaindex",
+      "answer_relevancy": 0.2807079688878924,
+      "faithfulness": 0.7272727272727273
+    },
+    {
+      "user_input": "为什么 Word 2010-2007 中插入的图片都变成空白框了？",
+      "response": "在 Word 2010 或 2007 中插入图片后仅显示空白边框，通常是因为程序设置中启用了“显示图片框”功能。此功能可能因系统异常（如内存不足或程序崩溃）被意外更改，导致图片以边框形式替代实际内容显示。  \n\n**解决方法如下：**  \n1. **打开 Word 设置：**  \n   - Word 2010：点击“文件”菜单，选择“选项”。  \n   - Word 2007：点击左上角的 Office 按钮，再选择“Word 选项”。  \n\n2. **调整显示设置：**  \n   - 在设置窗口中进入“高级”选项卡。  \n   - 在右侧“显示文档内容”部分，找到“显示图片框”选项并取消勾选。  \n\n3. **保存并验证：**  \n   - 点击“确定”保存更改，重新插入图片或刷新文档，图片应恢复正常显示。  \n\n若问题仍存在，可尝试通过 Office 诊断工具修复程序异常，或检查系统资源（如内存）是否充足。",
+      "retrieved_contexts": [
+        "# 知识库 16\n\n## 标题\n为什么 Word 2010/2007 中插入的图片都变成空白框了？\n\n## 问题描述\n修改Word 设置来解决Word 2010中插入的图片变成白框的问题。\n\n## 分类\n主类别: 预装软件\n子类别: Office软件\n\n## 关键词\n插入图片, Word 2010, Word 2007, 白框\n\n## 元信息\n创建时间:2024-12-15|版本:1.0\n\n## 解决方案\n**故障现象：**在 Word 2010/2007 中点击“插入-图片”向文档中添加图片时，图片仅显示为空白边框？为什么会这样呢？\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/20120507/1336357483656_708.png)\n\n**解决方案：**\n\n当内存不够或者 Word 程序崩溃时，可能会导致系统对程序默认设置的更改。对于上面这个问题，我们需要检查一下“**显示图片框**”项是否被勾选。\n\n对于 Word 2010，单击“**文件-选项**”。\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/20120507/1336357483656_132.png)\n\n对于 Word 2007，按一下 Office 按钮，然后单击“**Word 选项**”。\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/20120507/1336357483656_700.png)\n\n单击“**高级**”，然后从右边细节窗口找到“**显示文档内容**”部分，取消对“**显示图片框**”的勾选 。按“**确定**”保存更改。\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/20120507/1336357483656_156.png)\n\n现在图片就能正常显示了。\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/20120507/1336357483656_203.png)\n\n来源：[微软知识库](http://support.microsoft.com/kb/2701841/zh-cn)\n\n<!-- 文档主题：为什么 Word 2010/2007 中插入的图片都变成空白框了？ (知识库库编号: 16) -->",
+        "# 知识库 357\n\n## 标题\n启动手动安全模式打开Word程序\n\n## 问题描述\n手动安全模式打开Word程序在Word程序打不开时是一个非常有效的方法，下面将指导启动手动安全模式打开Word程序的方法。\n\n## 分类\n主类别: 预装软件\n子类别: Office软件\n\n## 关键词\nWindows, Word程序, 安全模式\n\n## 元信息\n创建时间:2024-12-15|版本:2.0\n\n## 解决方案\n相关文章：\n\n[word文档打不开或提示word已经停止工作](https://iknow.lenovo.com.cn/detail/085678)\n\n[Word 2010文档保存为Word 2003文档](https://iknow.lenovo.com.cn/detail/124880)\n\n[如何进行图片组合操作](https://iknow.lenovo.com.cn/detail/121405)\n\n[word文档加密和密码破解方法参考](https://iknow.lenovo.com.cn/detail/097225)\n\n[如何快速将图片提取出来](https://iknow.lenovo.com.cn/detail/124564)\n\n[新建多个文档时提示内存不足，无法运行](https://iknow.lenovo.com.cn/detail/087951)\n\n一、要启动手动安全模式其实很简单，只需三步轻松搞定：\n\n1、 单击任务栏的“开始”按钮，展开“所有程序”，然后展开“Microsoft Office”；\n\n2、按住键盘上的 Ctrl 键，然后单击您要运行的 Microsoft Office Word 2007，当它开始运行后再松开Ctrl键；\n\n3、在弹出的安全模式确认对话框中，单击“确定”按钮即可。\n\n二、在您应急之后，别忘了使用Office 诊断对崩溃的 Word 程序进行诊断和修复；\n\n要启动Office 诊断，单击任务栏的“开始”按钮，展开“所有程序”，然后展开“Microsoft Office”，再展开“Microsoft Office 工具”，单击“Microsoft Office 诊断”即可。诊断并修复完成后，您就可以像以前那样自如地正常启动Word了。\n\n<!-- 文档主题：启动手动安全模式打开Word程序 (知识库库编号: 357) -->",
+        "# 知识库 18\n\n## 标题\n在 Project 2010 中如何把甘特图复制到 Word 文档？\n\n## 问题描述\n有些同学在一开始使用 Project 2010 时，要把甘特图复制到 Word 中，却一下子找不到复制图片的功能，只能用 Windows 7 自带的截图工具。下面再指导在 Project 2010 中如何把甘特图复制到 Word 文档的方法。\n\n## 分类\n主类别: 预装软件\n子类别: Office软件\n\n## 关键词\nProject 2010, 甘特图, Word 文档, 复制\n\n## 元信息\n创建时间:2024-12-15|版本:1.0\n\n## 解决方案\n**故障现象：**有些同学在一开始使用 Project 2010 时，要把甘特图复制到 Word 中，却一下子找不到复制图片的功能，只能用 Windows 7 自带的截图工具。\n\n**解决方案：**\n\n1.打开 Project 2010，在“**任务**”选项卡里的“**剪贴板**”组里，点击“**复制**”按钮旁边的向下小箭头，你就能看见“**复制**”和“**复制图片**”两个按钮。\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/20120604/1338795940359_701.jpg)\n\n2.单击“**复制图片**”，在“**复制图片**”对话框中设置完成，点击“**确定**”即可复制粘贴到 Word 文档中。\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/20120604/1338795940359_66.JPG)\n\n可能有些同学还是觉得比较麻烦，有个更方便的方法不妨试试：\n\n1.打开 Project 2010，单击“**文件**”按钮，然后点击“**选项**”。\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/20120604/1338795940359_254.jpg)\n\n2.在“**Project 选项**”对话框中，单击“**自定义功能区**”，然后点击“**新建组**”按钮。\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/20120604/1338795940359_975.JPG)\n\n3.在“**常用命令**”中，选中“**复制图片**”，单击“**添加**”。\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/20120604/1338795940359_529.JPG)\n\n4.然后单击上下小箭头，可以调整“**新建组（自定义）**”组所在的位置，你还可以根据你的喜好来重命名新建组的名称。最后点击“**确定**”，单独的“**复制图片**”按钮就在“**任务**”选项卡中出现，方便快捷。\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/20120604/1338795940359_61.JPG)\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/20120604/1338795940359_859.JPG)  \n  \n来源：[微软知识库](http://support.microsoft.com/kb/2717528/zh-cn)\n\n<!-- 文档主题：在 Project 2010 中如何把甘特图复制到 Word 文档？ (知识库库编号: 18) -->"
+      ],
+      "reference": "可进入 Word 选项的“高级”设置，在“显示文档内容”中取消勾选“显示图片框”；若问题由内存不足或程序异常引起，也可关闭其他程序或重启 Word 后再试。",
+      "reference_contexts": [
+        "Word 插入图片仅显示空白框时，通常需要在“高级-显示文档内容”里取消“显示图片框”选项。"
+      ],
+      "metadata": {
+        "topic": "word_image_placeholder",
+        "difficulty": "easy",
+        "source_title": "为什么 Word 2010-2007 中插入的图片都变成空白框了？"
+      },
+      "retrieved_titles": [
+        "为什么 Word 2010-2007 中插入的图片都变成空白框了？",
+        "启动手动安全模式打开Word程序",
+        "在 Project 2010 中如何把甘特图复制到 Word 文档？"
+      ],
+      "retrieved_paths": [
+        "D:\\ITF_improve\\bj250716\\its_multi_agent\\backend\\knowledge\\data\\crawl\\0016-为什么 Word 2010-2007 中插入的图片都变成空白框了？.md",
+        "D:\\ITF_improve\\bj250716\\its_multi_agent\\backend\\knowledge\\data\\crawl\\0357-启动手动安全模式打开Word程序.md",
+        "D:\\ITF_improve\\bj250716\\its_multi_agent\\backend\\knowledge\\data\\crawl\\0018-在 Project 2010 中如何把甘特图复制到 Word 文档？.md"
+      ],
+      "query_backend": "in_memory_llamaindex",
+      "answer_relevancy": 0.8706963431453718,
+      "faithfulness": null
+    },
+    {
+      "user_input": "在 PowerPoint 2007 中无法输入中文怎么办？",
+      "response": "在 PowerPoint 2007 中无法输入中文时，可以尝试以下方法解决：  \n\n1. **检查高级文字服务设置**  \n   - 从开始菜单进入“控制面板”，双击打开“区域和语言选项”。  \n   - 切换到“语言”选项卡，点击“详细信息”按钮。  \n   - 在“文字服务和输入语言”窗口中，选择“高级”选项卡。  \n   - 确保“关闭高级文字服务”复选框未被勾选，若已勾选则取消勾选，保存设置后退出。  \n\n2. **修复系统文件（如高级文字服务仍无法启用）**  \n   - 在系统盘的 `windows\\system32` 目录下找到 `ctfmon.exe` 文件（若不存在，可从同版本系统中复制）。  \n   - 打开注册表编辑器，定位到 `HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Run`。  \n   - 右键新建一个“字符串值”，命名为 `ctfmon.exe`，并将其值设置为 `C:\\WINDOWS\\system32\\ctfmon.exe`。  \n\n完成上述操作后，重启电脑并重新打开 PowerPoint 2007，中文输入功能应恢复正常。若问题持续，建议检查输入法设置或更新系统补丁。",
+      "retrieved_contexts": [
+        "# 知识库 7\n\n## 标题\n在 PowerPoint 2007 中无法输入中文怎么办？\n\n## 问题描述\n通过关闭高级文字服务和修改注册表来解决 PowerPoint 2007 中无法输入中文问题的方法。\n\n## 分类\n主类别: 预装软件\n子类别: Office软件\n\n## 关键词\noffice, PowerPoint, ppt, 无法输入中文, 输入中文\n\n## 元信息\n创建时间:2024-12-15|版本:1.0\n\n## 解决方案\n**故障现象：**\n\n遇到一个奇怪的问题，没办法在PowerPoint2007幻灯片里输入汉字了，但数字、英文的输入都很正常。怎么回事？我使用的是WindowsXP操作系统。  \n  \n**解决方案：**\n\n我们可以检查一下这个问题是不是因“高级文字服务”被关闭而导致的。\n\n从开始菜单找到“控制面板”，双击“区域和语言选项”。\n\n  \n![](https://webdoc.lenovo.com.cn/lenovowsi/20120412/1334222147593_550.png)\n\n![](https://chinakb.lenovo.com.cn/ueditor/php/upload/image/20160111/1452505550130674.png)  \n  \n在弹出的窗口中，切换到“**语言”**[选项卡](http://iknow.lenovo.com/knowledgeDetail.html?knowledgeId=17796)，单击\"**详细信息**\"按钮。  \n  \n![](https://chinakb.lenovo.com.cn/ueditor/php/upload/image/20160111/1452505550779025.png)  \n  \n进入\"**文字服务和输入语言**\"设置窗口，单击\"**高级**\"选项卡，默认状态下“**关闭高级文字服务”**复选框前是没有勾选的，如果有，请将其清除。然后退出设置窗口。  \n  \n![](https://chinakb.lenovo.com.cn/ueditor/php/upload/image/20160111/1452505551281325.png)\n\nPS:如果高级文字服务总是被关闭，且无法取消。可以这么做：\n\n到同版本的操作系统的系统盘目录windows/system32找到文件ctfmon.exe复制到对应目录。\n\n然后到注册表中找到“HKEY\\_CURRENT\\_USER\\\\Software\\\\Microsoft\\\\Windows\\\\CurrentVersion\\\\Run”项，在右栏里点击右键“新建→字符串值”命名为ctfmon.exe，赋值为“C:\\\\WINDOWS\\\\system32\\\\ctfmon.exe”。\n\n<!-- 文档主题：在 PowerPoint 2007 中无法输入中文怎么办？ (知识库库编号: 7) -->",
+        "# 知识库 476\n\n## 标题\n如何将pdf文件转换成ppt文件（pdf转ppt）\n\n## 问题描述\n如何将pdf文件转换成ppt文件，可以用软件直接将pdf文件转换成ppt文件。\n\n## 分类\n主类别: 预装软件\n子类别: Office软件\n\n## 关键词\npdf转ppt\n\n## 元信息\n创建时间:2024-12-15|版本:1.0\n\n## 解决方案\n[PowerPoint 2010文件加密的方法](http://support1.lenovo.com.cn/lenovo/wsi/htmls/detail_20120827171312441.html)                  \n[PowerPoint如何在扩展屏上全屏播放](http://support1.lenovo.com.cn/lenovo/wsi/htmls/detail_20150623145723137.html)  \n[在PowerPoint 2007中无法输入中文](http://support1.lenovo.com.cn/lenovo/wsi/htmls/detail_20130121172532851.html)  \n[如何使PPT自动循环播放](http://support1.lenovo.com.cn/lenovo/wsi/htmls/detail_13146590370933670.html)  \n[合并两个PowerPoint 2010文档](http://support1.lenovo.com.cn/lenovo/wsi/htmls/detail_20150430153122760.html)  \n[Powerpoint 2010中插入在线](http://support1.lenovo.com.cn/lenovo/wsi/htmls/detail_20150505165300941.html)[视频](http://iknow.lenovo.com/detail/kd_17880.html)\n\n可以用[软件](/detail/kd_17963.html)直接将[pdf](/detail/kd_17824.html)文件转换成[ppt](/detail/kd_17358.html)文件。  \n  \n有一个软件名字叫[AnyBizSoft PDF Converter](/detail/kd_17584.html)，是一个全面专业PDF转换器。在百度搜索后，下载安装该软件。  \n  \n1、点击添加，把你要转换的PDF文档添加到程序处理列表。\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/20150710/1436500093669_934.png)  \n  \n2、在上面的按钮那里点击PPT。然后点击开始转换，等待转换完成即可。\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/20150710/1436500093669_961.png)  \n  \n3、之后您可以在PDF源文档地址找到转换好的文档。  \n  \n![](https://webdoc.lenovo.com.cn/lenovowsi/20150710/1436500093669_726.png)\n\n<!-- 文档主题：如何将pdf文件转换成ppt文件（pdf转ppt） (知识库库编号: 476) -->",
+        "# 知识库 52\n\n## 标题\n在Lync中如何共享桌面、ppt等？\n\n## 问题描述\n在Lync中经常会有演示桌面、PPT等内容的需求，下文将介绍如何在Lync中共享桌面、PPT等。\n\n## 分类\n主类别: 预装软件\n子类别: Office软件\n\n## 关键词\nLync, 共享, 桌面, PPT\n\n## 元信息\n创建时间:2024-12-15|版本:1.0\n\n## 解决方案\n**相关文章：**\n\n[PowerPoint 2010文件加密的方法](http://support1.lenovo.com.cn/lenovo/wsi/htmls/detail_20120827171312441.html)\n\n[PowerPoint如何在扩展屏上全屏播放](http://support1.lenovo.com.cn/lenovo/wsi/htmls/detail_20150623145723137.html)\n\n[在PowerPoint 2007中无法输入中文](http://support1.lenovo.com.cn/lenovo/wsi/htmls/detail_20130121172532851.html)\n\n[如何使PPT自动循环播放](http://support1.lenovo.com.cn/lenovo/wsi/htmls/detail_13146590370933670.html)、\n\n[合并两个PowerPoint 2010文档](http://support1.lenovo.com.cn/lenovo/wsi/htmls/detail_20150430153122760.html)\n\n[Powerpoint 2010中插入在线视频](http://support1.lenovo.com.cn/lenovo/wsi/htmls/detail_20150505165300941.html)\n\n在与您的联系人IM对话框中，点**[共享]**，您可以共享您的桌面、程序、PPT等。\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/20120821/1345530133455_1.png)\n\n您可以点**[授予控制权]**来允许对方控制您的桌面、PPT等，您也可以点**[停止共享]**来取消共享。\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/20120821/1345530133455_733.png)\n\n<!-- 文档主题：在Lync中如何共享桌面、ppt等？ (知识库库编号: 52) -->"
+      ],
+      "reference": "可先在控制面板的“区域和语言选项”中检查并取消“关闭高级文字服务”；若仍无法输入中文，可复制同版本系统中的 `ctfmon.exe` 到 `C:\\Windows\\System32` 并在注册表的 `HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Run` 中添加开机启动项。",
+      "reference_contexts": [
+        "PowerPoint 2007 无法输入中文，常见原因是高级文字服务被关闭；必要时可恢复 ctfmon.exe 并在注册表中添加启动项。"
+      ],
+      "metadata": {
+        "topic": "powerpoint_input_cn",
+        "difficulty": "medium",
+        "source_title": "在 PowerPoint 2007 中无法输入中文怎么办？"
+      },
+      "retrieved_titles": [
+        "在 PowerPoint 2007 中无法输入中文怎么办？",
+        "如何将pdf文件转换成ppt文件（pdf转ppt）",
+        "在Lync中如何共享桌面、ppt等？"
+      ],
+      "retrieved_paths": [
+        "D:\\ITF_improve\\bj250716\\its_multi_agent\\backend\\knowledge\\data\\crawl\\0007-在 PowerPoint 2007 中无法输入中文怎么办？.md",
+        "D:\\ITF_improve\\bj250716\\its_multi_agent\\backend\\knowledge\\data\\crawl\\0476-如何将pdf文件转换成ppt文件（pdf转ppt）.md",
+        "D:\\ITF_improve\\bj250716\\its_multi_agent\\backend\\knowledge\\data\\crawl\\0052-在Lync中如何共享桌面、ppt等？.md"
+      ],
+      "query_backend": "in_memory_llamaindex",
+      "answer_relevancy": 0.5434695160399671,
+      "faithfulness": 0.6666666666666666
+    },
+    {
+      "user_input": "如何修改 Microsoft Word 的默认样式？",
+      "response": "要修改 Microsoft Word 的默认样式，可按照以下步骤操作：\n\n1. **打开样式设置界面**  \n   启动 Word 后，点击顶部菜单栏的“开始”选项卡，在“样式”功能区中找到右下角的展开箭头（小图标），点击进入“样式”窗口。或直接使用快捷键 **Ctrl+Alt+Shift+S** 快速调出样式管理界面。\n\n2. **调整默认格式参数**  \n   在“样式”窗口底部点击“管理样式”按钮，进入高级设置。切换至“设置默认值”选项卡，可自定义中西文字体、字号、段落对齐方式、行距及缩进等格式。根据需求修改后，选择新样式的应用范围（如“所有新文档”）。\n\n3. **保存设置**  \n   确认调整无误后，点击“确定”按钮保存更改。此后新建的 Word 文档将自动应用更新后的默认样式。\n\n若需恢复系统默认样式，可删除 Word 的模板文件 **Normal.dotm**（路径：`%appdata%\\Microsoft\\Templates`），重启 Word 后系统会自动生成默认模板。",
+      "retrieved_contexts": [
+        "# 知识库 8\n\n## 标题\n如何修改 Microsoft Word 的默认样式？\n\n## 问题描述\n修改 Microsoft Word 的默认样式的操作步骤。\n\n## 分类\n主类别: 预装软件\n子类别: Office软件\n\n## 关键词\noffice, Word, 默认样式, 办公软件\n\n## 元信息\n创建时间:2024-12-15|版本:1.0\n\n## 解决方案\n**故障现象：**\n\n修改 Microsoft Word 的默认样式。  \n  \n**解决方案：**\n\n打开Word，在“**开始**”选项卡“**样式**”选项组右下角单击小箭头按钮。如下图所示：\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/20120412/1334222838203_280.png)\n\n或者直接在键盘上按组合键“**Ctrl+Alt+Shift+s**”调出“**样式**”窗口，单击底部“**管理样式**”按钮。\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/20120412/1334222838203_22.png)\n\n在“**管理样式**”窗口中，切换到“**设置默认值**”选项卡。我们可以在这里重新设置文档的默认格式，包括中西文字体，字号，段落位置，段落间距等。完成设置后，选择新样式的适用范围，最后单击“**确定**”保存设置就可以了。\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/20120412/1334222838203_973.png)\n\n有同学问：如果日后又想使用系统默认的样式，怎么还原回去？\n\n这个也简单的。在Windows资源管理器地址栏中输入路径**%appdata%\\\\microsoftemplates**，回车。找到并删除**Normal.dotm**，然后重新运行Word就可以回归默认样式了。\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/20120412/1334222838203_129.png) \n\n<!-- 文档主题：如何修改 Microsoft Word 的默认样式？ (知识库库编号: 8) -->",
+        "# 知识库 24\n\n## 标题\n将Outlook设为Mac默认程序后为何仍弹出Apple Mail？\n\n## 问题描述\n把 Outlook 设置为 Mac 的默认应用程序后，从 Word/Excel/PowerPoint 中将文件作为附件发出，但弹出的却仍是 Apple Mail 的解决办法。\n\n## 分类\n主类别: 预装软件\n子类别: Office软件\n\n## 关键词\nOutlook, Mac, 默认程序, 弹出, Apple Mail\n\n## 元信息\n创建时间:2024-12-15|版本:1.0\n\n## 解决方案\n**故障现象：**\n\n把 Outlook 设置为 Mac 的默认应用程序后，从 Word/Excel/PowerPoint 中将文件作为附件发出，但弹出的却仍是 Apple Mail。\n\n**解决方案：**\n\n打开 Finder，找到 User（当前出问题的账户）/Library/Preference，在 Preference 下找到并删除这两个文件：\n\ncom.apple.LaunchServices.plist\n\ncom.microsoft.Outlook.plist\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/20120604/1338800044859_817.png)\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/20120604/1338800044859_938.png)\n\n重启系统，然后重新将 Outlook 设为默认应用程序。具体如下：\n\n打开 Outlook，单击“Outlook-偏好设置”；\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/20120604/1338800044859_237.png)\n\n在“个人设置”部分单击“常规”；\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/20120604/1338800044859_7.png)\n\n单击“设为默认”按钮将 Outlook 设为电子邮件、日历和联系人的默认应用程序。\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/20120604/1338800044859_603.png)\n\n<!-- 文档主题：将Outlook设为Mac默认程序后为何仍弹出Apple Mail？ (知识库库编号: 24) -->",
+        "# 知识库 189\n\n## 标题\n智能电视中的天气预报如何修改默认城市？\n\n## 问题描述\n联想智能电视具有不少体贴的功能，天气预报就是一个，下面讲述智能电视中的天气预报如何修改默认城市？\n\n## 分类\n主类别: 操作系统故障\n子类别: 系统应用操作\n\n## 关键词\n联想, 智能电视, 特点, 功能, 网络, 高清, 视频, 天气预报, 默认\n\n## 元信息\n创建时间:2024-12-15|版本:1.0\n\n## 解决方案\n打开“设置”---“基本”，找到“城市设定”，可以修改。\n\n提示：有些机型，城市设定的位置偏下，可能要把设置项拉动到底部才能看到。\n\n<!-- 文档主题：智能电视中的天气预报如何修改默认城市？ (知识库库编号: 189) -->"
+      ],
+      "reference": "可通过“开始-样式”窗格进入“管理样式”的“设置默认值”，调整默认字体、字号和段落间距等格式；若要恢复系统默认样式，可删除 `%appdata%\\microsoft\\templates\\Normal.dotm` 后重启 Word。",
+      "reference_contexts": [
+        "Word 默认样式可在“管理样式-设置默认值”中修改；删除 Normal.dotm 可恢复默认样式。"
+      ],
+      "metadata": {
+        "topic": "word_default_style",
+        "difficulty": "easy",
+        "source_title": "如何修改 Microsoft Word 的默认样式？"
+      },
+      "retrieved_titles": [
+        "如何修改 Microsoft Word 的默认样式？",
+        "将Outlook设为Mac默认程序后为何仍弹出Apple Mail？",
+        "智能电视中的天气预报如何修改默认城市？"
+      ],
+      "retrieved_paths": [
+        "D:\\ITF_improve\\bj250716\\its_multi_agent\\backend\\knowledge\\data\\crawl\\0008-如何修改 Microsoft Word 的默认样式？.md",
+        "D:\\ITF_improve\\bj250716\\its_multi_agent\\backend\\knowledge\\data\\crawl\\0024-将Outlook设为Mac默认程序后为何仍弹出Apple Mail？.md",
+        "D:\\ITF_improve\\bj250716\\its_multi_agent\\backend\\knowledge\\data\\crawl\\0189-智能电视中的天气预报如何修改默认城市？.md"
+      ],
+      "query_backend": "in_memory_llamaindex",
+      "answer_relevancy": 0.4754564198078675,
+      "faithfulness": 1.0
+    }
+  ]
+}

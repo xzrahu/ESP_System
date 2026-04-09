@@ -1,0 +1,164 @@
+{
+  "summary": {
+    "dataset": "evaluation/sample_eval_dataset_curated.jsonl",
+    "top_k": 5,
+    "query_backend": "in_memory_llamaindex",
+    "total_samples": 4,
+    "successful_samples": 4,
+    "failed_samples": 0,
+    "aggregate_metrics": {
+      "precision@5": 0.2,
+      "recall@5": 1.0,
+      "hit_rate@5": 1.0,
+      "mrr@5": 1.0,
+      "ndcg@5": 1.0
+    }
+  },
+  "results": [
+    {
+      "question": "开机之后无任何反应怎么办？",
+      "metrics": {
+        "precision@5": 0.2,
+        "recall@5": 1.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 1.0
+      },
+      "expected": {
+        "relevant_titles": [
+          "开机之后无任何反应怎么办？"
+        ],
+        "relevant_paths": []
+      },
+      "retrieved": [
+        {
+          "rank": 1,
+          "title": "开机之后无任何反应怎么办？",
+          "path": "D:\\ITF_improve\\bj250716\\its_multi_agent\\backend\\knowledge\\data\\crawl\\0004-开机之后无任何反应怎么办？.md",
+          "matched": true
+        },
+        {
+          "rank": 2,
+          "title": "联想手机A520不能开机如何解决",
+          "path": "D:\\ITF_improve\\bj250716\\its_multi_agent\\backend\\knowledge\\data\\crawl\\0439-联想手机A520不能开机如何解决.md",
+          "matched": false
+        },
+        {
+          "rank": 3,
+          "title": "联想手机S680不能开机如何解决",
+          "path": "D:\\ITF_improve\\bj250716\\its_multi_agent\\backend\\knowledge\\data\\crawl\\0450-联想手机S680不能开机如何解决.md",
+          "matched": false
+        }
+      ]
+    },
+    {
+      "question": "为什么 Word 2010-2007 中插入的图片都变成空白框了？",
+      "metrics": {
+        "precision@5": 0.2,
+        "recall@5": 1.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 1.0
+      },
+      "expected": {
+        "relevant_titles": [
+          "为什么 word 2010-2007 中插入的图片都变成空白框了？"
+        ],
+        "relevant_paths": []
+      },
+      "retrieved": [
+        {
+          "rank": 1,
+          "title": "为什么 Word 2010-2007 中插入的图片都变成空白框了？",
+          "path": "D:\\ITF_improve\\bj250716\\its_multi_agent\\backend\\knowledge\\data\\crawl\\0016-为什么 Word 2010-2007 中插入的图片都变成空白框了？.md",
+          "matched": true
+        },
+        {
+          "rank": 2,
+          "title": "启动手动安全模式打开Word程序",
+          "path": "D:\\ITF_improve\\bj250716\\its_multi_agent\\backend\\knowledge\\data\\crawl\\0357-启动手动安全模式打开Word程序.md",
+          "matched": false
+        },
+        {
+          "rank": 3,
+          "title": "在 Project 2010 中如何把甘特图复制到 Word 文档？",
+          "path": "D:\\ITF_improve\\bj250716\\its_multi_agent\\backend\\knowledge\\data\\crawl\\0018-在 Project 2010 中如何把甘特图复制到 Word 文档？.md",
+          "matched": false
+        }
+      ]
+    },
+    {
+      "question": "在 PowerPoint 2007 中无法输入中文怎么办？",
+      "metrics": {
+        "precision@5": 0.2,
+        "recall@5": 1.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 1.0
+      },
+      "expected": {
+        "relevant_titles": [
+          "在 powerpoint 2007 中无法输入中文怎么办？"
+        ],
+        "relevant_paths": []
+      },
+      "retrieved": [
+        {
+          "rank": 1,
+          "title": "在 PowerPoint 2007 中无法输入中文怎么办？",
+          "path": "D:\\ITF_improve\\bj250716\\its_multi_agent\\backend\\knowledge\\data\\crawl\\0007-在 PowerPoint 2007 中无法输入中文怎么办？.md",
+          "matched": true
+        },
+        {
+          "rank": 2,
+          "title": "如何将pdf文件转换成ppt文件（pdf转ppt）",
+          "path": "D:\\ITF_improve\\bj250716\\its_multi_agent\\backend\\knowledge\\data\\crawl\\0476-如何将pdf文件转换成ppt文件（pdf转ppt）.md",
+          "matched": false
+        },
+        {
+          "rank": 3,
+          "title": "在Lync中如何共享桌面、ppt等？",
+          "path": "D:\\ITF_improve\\bj250716\\its_multi_agent\\backend\\knowledge\\data\\crawl\\0052-在Lync中如何共享桌面、ppt等？.md",
+          "matched": false
+        }
+      ]
+    },
+    {
+      "question": "如何修改 Microsoft Word 的默认样式？",
+      "metrics": {
+        "precision@5": 0.2,
+        "recall@5": 1.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 1.0
+      },
+      "expected": {
+        "relevant_titles": [
+          "如何修改 microsoft word 的默认样式？"
+        ],
+        "relevant_paths": []
+      },
+      "retrieved": [
+        {
+          "rank": 1,
+          "title": "如何修改 Microsoft Word 的默认样式？",
+          "path": "D:\\ITF_improve\\bj250716\\its_multi_agent\\backend\\knowledge\\data\\crawl\\0008-如何修改 Microsoft Word 的默认样式？.md",
+          "matched": true
+        },
+        {
+          "rank": 2,
+          "title": "将Outlook设为Mac默认程序后为何仍弹出Apple Mail？",
+          "path": "D:\\ITF_improve\\bj250716\\its_multi_agent\\backend\\knowledge\\data\\crawl\\0024-将Outlook设为Mac默认程序后为何仍弹出Apple Mail？.md",
+          "matched": false
+        },
+        {
+          "rank": 3,
+          "title": "智能电视中的天气预报如何修改默认城市？",
+          "path": "D:\\ITF_improve\\bj250716\\its_multi_agent\\backend\\knowledge\\data\\crawl\\0189-智能电视中的天气预报如何修改默认城市？.md",
+          "matched": false
+        }
+      ]
+    }
+  ],
+  "failures": []
+}

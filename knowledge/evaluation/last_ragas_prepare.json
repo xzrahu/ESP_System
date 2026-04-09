@@ -1,0 +1,31 @@
+{
+  "summary": {
+    "dataset": "evaluation/sample_ragas_dataset.jsonl",
+    "total_samples": 1,
+    "metrics": [
+      "answer_relevancy",
+      "faithfulness",
+      "context_precision",
+      "context_recall",
+      "answer_correctness"
+    ],
+    "prepare_only": true
+  },
+  "records": [
+    {
+      "user_input": "开机蓝屏怎么办？",
+      "response": "当前知识库中暂时没有找到该问题的解决方案。",
+      "retrieved_contexts": [],
+      "reference": "可先记录蓝屏错误代码，尝试进入安全模式排查最近安装的驱动或软件，并检查内存、硬盘等硬件状态。",
+      "reference_contexts": [
+        "蓝屏故障排查通常需要先记录报错信息，再按驱动、系统变更和硬件状态逐步定位。"
+      ],
+      "metadata": {
+        "topic": "blue_screen",
+        "difficulty": "medium"
+      },
+      "retrieved_titles": [],
+      "retrieved_paths": []
+    }
+  ]
+}

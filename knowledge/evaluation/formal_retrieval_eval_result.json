@@ -1,0 +1,212 @@
+{
+  "summary": {
+    "dataset": "evaluation/sample_eval_dataset_curated.jsonl",
+    "top_k": 5,
+    "query_backend": "in_memory_llamaindex",
+    "total_samples": 4,
+    "successful_samples": 4,
+    "failed_samples": 0,
+    "aggregate_metrics": {
+      "precision@5": 0.1,
+      "recall@5": 0.5,
+      "hit_rate@5": 0.5,
+      "mrr@5": 0.5,
+      "ndcg@5": 0.5
+    }
+  },
+  "results": [
+    {
+      "question": "开机之后无任何反应怎么办？",
+      "metrics": {
+        "precision@5": 0.2,
+        "recall@5": 1.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 1.0
+      },
+      "expected": {
+        "relevant_titles": [
+          "开机之后无任何反应怎么办？"
+        ],
+        "relevant_paths": []
+      },
+      "retrieved": [
+        {
+          "rank": 1,
+          "title": "开机之后无任何反应怎么办？",
+          "path": "D:\\ITF_improve\\bj250716\\its_multi_agent\\backend\\knowledge\\data\\crawl\\0004-开机之后无任何反应怎么办？.md",
+          "matched": true
+        },
+        {
+          "rank": 2,
+          "title": "为什么 Word 2010-2007 中插入的图片都变成空白框了？",
+          "path": "D:\\ITF_improve\\bj250716\\its_multi_agent\\backend\\knowledge\\data\\crawl\\0016-为什么 Word 2010-2007 中插入的图片都变成空白框了？.md",
+          "matched": false
+        },
+        {
+          "rank": 3,
+          "title": "联想手机A288t无线网络无法连接或无法上网如何解决",
+          "path": "D:\\ITF_improve\\bj250716\\its_multi_agent\\backend\\knowledge\\data\\crawl\\0433-联想手机A288t无线网络无法连接或无法上网如何解决.md",
+          "matched": false
+        },
+        {
+          "rank": 4,
+          "title": "Windows 7系统下天气小工具提示“您所在的地区无法使用服务”无法正常使用的案例分析",
+          "path": "D:\\ITF_improve\\bj250716\\its_multi_agent\\backend\\knowledge\\data\\crawl\\0643-Windows 7系统下天气小工具提示“您所在的地区无法使用服务”无法正常使用的案例分析.md",
+          "matched": false
+        },
+        {
+          "rank": 5,
+          "title": "暴风影音在播放高清视频时占用的CPU高怎么办-",
+          "path": "D:\\ITF_improve\\bj250716\\its_multi_agent\\backend\\knowledge\\data\\crawl\\0487-暴风影音在播放高清视频时占用的CPU高怎么办-.md",
+          "matched": false
+        }
+      ]
+    },
+    {
+      "question": "如何去掉Outlook中的段落标记等符号？",
+      "metrics": {
+        "precision@5": 0.0,
+        "recall@5": 0.0,
+        "hit_rate@5": 0.0,
+        "mrr@5": 0.0,
+        "ndcg@5": 0.0
+      },
+      "expected": {
+        "relevant_titles": [
+          "如何去掉outlook中的段落标记等符号?"
+        ],
+        "relevant_paths": []
+      },
+      "retrieved": [
+        {
+          "rank": 1,
+          "title": "如何去掉Outlook中的段落标记等符号-",
+          "path": "D:\\ITF_improve\\bj250716\\its_multi_agent\\backend\\knowledge\\data\\crawl\\0010-如何去掉Outlook中的段落标记等符号-.md",
+          "matched": false
+        },
+        {
+          "rank": 2,
+          "title": "如何控制 Internet Explorer 浏览器的进程数量？",
+          "path": "D:\\ITF_improve\\bj250716\\its_multi_agent\\backend\\knowledge\\data\\crawl\\0040-如何控制 Internet Explorer 浏览器的进程数量？.md",
+          "matched": false
+        },
+        {
+          "rank": 3,
+          "title": "智能电视遥控器比较费电怎么办？",
+          "path": "D:\\ITF_improve\\bj250716\\its_multi_agent\\backend\\knowledge\\data\\crawl\\0184-智能电视遥控器比较费电怎么办？.md",
+          "matched": false
+        },
+        {
+          "rank": 4,
+          "title": "纯平显示器与平面直角显示器的区别及判断方法",
+          "path": "D:\\ITF_improve\\bj250716\\its_multi_agent\\backend\\knowledge\\data\\crawl\\0753-纯平显示器与平面直角显示器的区别及判断方法.md",
+          "matched": false
+        },
+        {
+          "rank": 5,
+          "title": "联想笔记本电脑如何禁用触控板",
+          "path": "D:\\ITF_improve\\bj250716\\its_multi_agent\\backend\\knowledge\\data\\crawl\\0404-联想笔记本电脑如何禁用触控板.md",
+          "matched": false
+        }
+      ]
+    },
+    {
+      "question": "如何修改 Microsoft Word 的默认样式？",
+      "metrics": {
+        "precision@5": 0.2,
+        "recall@5": 1.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 1.0
+      },
+      "expected": {
+        "relevant_titles": [
+          "如何修改 microsoft word 的默认样式？"
+        ],
+        "relevant_paths": []
+      },
+      "retrieved": [
+        {
+          "rank": 1,
+          "title": "如何修改 Microsoft Word 的默认样式？",
+          "path": "D:\\ITF_improve\\bj250716\\its_multi_agent\\backend\\knowledge\\data\\crawl\\0008-如何修改 Microsoft Word 的默认样式？.md",
+          "matched": true
+        },
+        {
+          "rank": 2,
+          "title": "“我的文档”误删除后如何恢复",
+          "path": "D:\\ITF_improve\\bj250716\\its_multi_agent\\backend\\knowledge\\data\\crawl\\0741-“我的文档”误删除后如何恢复.md",
+          "matched": false
+        },
+        {
+          "rank": 3,
+          "title": "如何恢复QQ视频默认设置",
+          "path": "D:\\ITF_improve\\bj250716\\its_multi_agent\\backend\\knowledge\\data\\crawl\\0335-如何恢复QQ视频默认设置.md",
+          "matched": false
+        },
+        {
+          "rank": 4,
+          "title": "智能电视中的天气预报如何修改默认城市？",
+          "path": "D:\\ITF_improve\\bj250716\\its_multi_agent\\backend\\knowledge\\data\\crawl\\0189-智能电视中的天气预报如何修改默认城市？.md",
+          "matched": false
+        },
+        {
+          "rank": 5,
+          "title": "联想手机S890如何将内置存储内的文件转移至外置存储卡",
+          "path": "D:\\ITF_improve\\bj250716\\its_multi_agent\\backend\\knowledge\\data\\crawl\\0428-联想手机S890如何将内置存储内的文件转移至外置存储卡.md",
+          "matched": false
+        }
+      ]
+    },
+    {
+      "question": "Visio 2010/2007 形状面板不见了怎么办？",
+      "metrics": {
+        "precision@5": 0.0,
+        "recall@5": 0.0,
+        "hit_rate@5": 0.0,
+        "mrr@5": 0.0,
+        "ndcg@5": 0.0
+      },
+      "expected": {
+        "relevant_titles": [
+          "visio 2010/2007 形状面板不见了怎么办？"
+        ],
+        "relevant_paths": []
+      },
+      "retrieved": [
+        {
+          "rank": 1,
+          "title": "联想智能电视乐商店功能介绍及如何下载应用",
+          "path": "D:\\ITF_improve\\bj250716\\its_multi_agent\\backend\\knowledge\\data\\crawl\\0200-联想智能电视乐商店功能介绍及如何下载应用.md",
+          "matched": false
+        },
+        {
+          "rank": 2,
+          "title": "联想手机P770充电总是显示不满如何解决",
+          "path": "D:\\ITF_improve\\bj250716\\its_multi_agent\\backend\\knowledge\\data\\crawl\\0456-联想手机P770充电总是显示不满如何解决.md",
+          "matched": false
+        },
+        {
+          "rank": 3,
+          "title": "为什么 Word 2010-2007 中插入的图片都变成空白框了？",
+          "path": "D:\\ITF_improve\\bj250716\\its_multi_agent\\backend\\knowledge\\data\\crawl\\0016-为什么 Word 2010-2007 中插入的图片都变成空白框了？.md",
+          "matched": false
+        },
+        {
+          "rank": 4,
+          "title": "Visio 2010-2007 形状面板不见了怎么办？",
+          "path": "D:\\ITF_improve\\bj250716\\its_multi_agent\\backend\\knowledge\\data\\crawl\\0019-Visio 2010-2007 形状面板不见了怎么办？.md",
+          "matched": false
+        },
+        {
+          "rank": 5,
+          "title": "智能电视开不了机并且指示灯一直亮红灯怎么办？",
+          "path": "D:\\ITF_improve\\bj250716\\its_multi_agent\\backend\\knowledge\\data\\crawl\\0193-智能电视开不了机并且指示灯一直亮红灯怎么办？.md",
+          "matched": false
+        }
+      ]
+    }
+  ],
+  "failures": []
+}

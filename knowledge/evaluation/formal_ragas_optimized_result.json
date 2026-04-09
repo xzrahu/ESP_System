@@ -1,0 +1,166 @@
+{
+  "summary": {
+    "dataset": "evaluation/sample_ragas_dataset.jsonl",
+    "total_samples": 4,
+    "metrics": [
+      "answer_relevancy",
+      "faithfulness"
+    ],
+    "prepare_only": false,
+    "query_backend": "in_memory_llamaindex",
+    "aggregate_metrics": {
+      "answer_relevancy": 0.4838406902401137,
+      "faithfulness": null
+    }
+  },
+  "records": [
+    {
+      "user_input": "开机之后无任何反应怎么办？",
+      "response": "当电脑开机后无任何反应且主机灯不亮时，可尝试以下步骤排查：\n\n1. **检查电源连接**  \n   - 确保电源线已牢固插入主机接口和电源插座，避免因接触不良导致供电中断。\n   - 若使用插线板，确认插线板电源开关已打开，或尝试更换插座测试。\n\n2. **释放静电干扰**  \n   - 完全断开电源线后，连续按压电源开关5-10次，每次间隔2秒，以清除可能存在的静电干扰。\n   - 重新连接电源线后再次尝试开机。\n\n3. **进一步检查**  \n   - 若上述操作无效，需确认电源线本身是否损坏，可尝试更换电源线。\n   - 检查主机内部电源模块或主板是否出现故障，建议联系专业技术人员进行硬件检测。\n\n若问题仍未解决，可能是电源或主板等硬件故障，需通过官方售后或维修服务点进行深度排查。",
+      "retrieved_contexts": [
+        "# 知识库 4\n\n## 标题\n开机之后无任何反应怎么办？\n\n## 问题描述\nNone\n\n## 关键词\nNone\n\n## 元信息\n创建时间:2024-12-15|版本:1.0\n\n## 解决方案\n  \n\n**故障描述：**开机没有任何反应，主机灯不亮\n\n  \n\n**适用范围：**3000系列台式电脑、Idea Centre、锋行和家悦台式电脑。\n\n  \n\n**解决方案：**\n\n  \n\n第一步：检查电源线（主机接口和插线板）是否正常连接；\n\n  \n\n第二步：断开电源线，多按几次电源开关，消除静电屏蔽，释放静电，连接电源线，开机重试。\n\n<!-- 文档主题：开机之后无任何反应怎么办？ (知识库库编号: 4) -->",
+        "# 知识库 16\n\n## 标题\n为什么 Word 2010/2007 中插入的图片都变成空白框了？\n\n## 问题描述\n修改Word 设置来解决Word 2010中插入的图片变成白框的问题。\n\n## 分类\n主类别: 预装软件\n子类别: Office软件\n\n## 关键词\n插入图片, Word 2010, Word 2007, 白框\n\n## 元信息\n创建时间:2024-12-15|版本:1.0\n\n## 解决方案\n**故障现象：**在 Word 2010/2007 中点击“插入-图片”向文档中添加图片时，图片仅显示为空白边框？为什么会这样呢？\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/20120507/1336357483656_708.png)\n\n**解决方案：**\n\n当内存不够或者 Word 程序崩溃时，可能会导致系统对程序默认设置的更改。对于上面这个问题，我们需要检查一下“**显示图片框**”项是否被勾选。\n\n对于 Word 2010，单击“**文件-选项**”。\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/20120507/1336357483656_132.png)\n\n对于 Word 2007，按一下 Office 按钮，然后单击“**Word 选项**”。\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/20120507/1336357483656_700.png)\n\n单击“**高级**”，然后从右边细节窗口找到“**显示文档内容**”部分，取消对“**显示图片框**”的勾选 。按“**确定**”保存更改。\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/20120507/1336357483656_156.png)\n\n现在图片就能正常显示了。\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/20120507/1336357483656_203.png)\n\n来源：[微软知识库](http://support.microsoft.com/kb/2701841/zh-cn)\n\n<!-- 文档主题：为什么 Word 2010/2007 中插入的图片都变成空白框了？ (知识库库编号: 16) -->",
+        "# 知识库 433\n\n## 标题\n联想手机A288t无线网络无法连接或无法上网如何解决\n\n## 问题描述\nA288t在使用过程中，如出现无法连接到无线网络或者已连接到无线网络但无法上网的情况。\n\n## 分类\n主类别: 操作系统故障\n子类别: 系统应用操作\n\n## 关键词\n联想手机, A288t, 无线网络, 无法连接, 无法上网\n\n## 元信息\n创建时间:2024-12-15|版本:1.0\n\n## 解决方案\nA288t在使用过程中，如出现无法连接到无线网络或者已连接到无线网络但无法上网的情况，可参考以下操作：\n\n一、无法连接到无线网络\n\n1、如提示“已停用”，请确保连接无线网络时输入的密码是否正确，输入密码时勾选“显示密码”选项，因为在使用过程中发现在输入密码时拼音大小写容易混淆，导致密码输入错误。\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/20150105/1420438639571_496.jpg)![](https://webdoc.lenovo.com.cn/lenovowsi/20150105/1420438639571_947.jpg)\n\n2、部分无线网络可能对设备的接入作了限定，如设置了[物理地址](/detail/kd_18119.html)得[绑定](/detail/kd_18083.html)等。此时需要咨询网络服务商或您公司的IT部门，商议能否添加您手机的访问权限或取消相应的限制。\n\n3、确认无线网络的名称是否为中文，一般情况下是不能使用中文的，如为中文，请更改为英文或数字后再尝试连接。\n\n4、如手机之前能正常连接使用无线功能，因某些原因无法连接上，建议先确认是否之前对手机或无线[路由器](/detail/kd_17368.html)做过什么操作导致，此时可尝试将手机设备[重启](/detail/kd_17977.html)或[备份](/detail/kd_17770.html)重要数据后通过路径“设置-隐私权-恢复出厂设置”恢复出厂设置。问题依然存在的话，可再尝试将路由器重启或是恢复出厂设置。如此可达到取消已连接的记忆，并重新再次连接的目的。\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/20150105/1420438639571_81.jpg)![](https://webdoc.lenovo.com.cn/lenovowsi/20150105/1420438639571_132.jpg)\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/20150105/1420438639571_195.jpg)!",
+        "# 知识库 643\n\n## 标题\nWindows 7系统下天气小工具提示“您所在的地区无法使用服务”无法正常使用的案例分析\n\n## 问题描述\nwin在使用微软原带桌面小工具中的 天气 小工具无法使用，显示&amp;#34;您所在的地区无法使用服务&amp;#34;\n\n## 分类\n主类别: 操作系统故障\n子类别: 系统应用操作\n\n## 关键词\nwin7, 天气小工具, 您所在的地区无法使用服务, 天气\n\n## 元信息\n创建时间:2024-12-15|版本:2.0\n\n## 解决方案\n**现象描述：**\n\nWindows 7上市以来，在使用微软原带桌面小工具中的 天气 小工具无法使用，显示\"您所在的地区无法使用服务\"\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/uploadimages/2010-09-29/KjXhMOzpaQ1jNHm8.jpg)\n\n**解决方案：**\n\n1、先下载本篇文章中附件；\n\n2、双击运行附件修复程序，点安装进行修复即可。\n\n修复后如图：\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/uploadimages/2010-09-29/z4ao9XlgiGoG1M6a.jpg)\n\n（修复后关闭天气小工具重新打开即可，如果无效可以重新运行。）\n\n**操作解析：**\n\n设置需要显示的地区，如图点扳手状的设置按钮；\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/uploadimages/2010-09-29/X3QPcaTLbEmhh380.jpg)\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/uploadimages/2010-09-29/518t5ClJDGHCFhNQ.jpg)\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/uploadimages/2010-09-29/35ihzhK9hWkWUTS1.jpg)\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/uploadimages/2010-09-29/pf4wsVdCt1OWQhn7.jpg)\n\n![](/ueditor/dialogs/attachment/fileTypeImages/icon_rar.gif)[**微软自带天气预报\\_修正.rar**](https://chinakb.lenovo.com.cn/ueditor/php/upload/file/20190704/1562232978146163.rar \"微软自带天气预报_修正.rar\")\n\n<!-- 文档主题：Windows 7系统下天气小工具提示“您所在的地区无法使用服务”无法正常使用的案例分析 (知识库库编号: 643) -->",
+        "# 知识库 487\n\n## 标题\n暴风影音在播放高清视频时占用的CPU高怎么办?\n\n## 问题描述\n暴风影音在播放高清视频时占用的CPU高\n\n## 分类\n主类别: 第三方软件\n子类别: 暴风影音\n\n## 关键词\n暴风影音, 播放, 高清视频, 占用, CPU\n\n## 元信息\n创建时间:2024-12-15|版本:1.0\n\n## 解决方案\n[用暴风影音看电影更流畅的三个技巧](https://support.lenovo.com.cn/lenovo/wsi/htmls/detail_1437382136344.html)\n\n[使用暴风影音如何下载电影](https://support.lenovo.com.cn/lenovo/wsi/htmls/detail_1437381441863.html)\n\n请您在高清加速设置中使用“对以下视频开启”，并根据您的需要选择720P或者1080P。\n\n![播放高清视频占用CPU高](https://webdoc.lenovo.com.cn/lenovowsi/20150721/1437450884993_408.png)\n\n<!-- 文档主题：暴风影音在播放高清视频时占用的CPU高怎么办? (知识库库编号: 487) -->"
+      ],
+      "reference": "可先检查主机接口和插线板的电源线是否连接正常；若仍无反应，可断开电源并多按几次电源键释放静电后，再重新接电开机测试。",
+      "reference_contexts": [
+        "开机无反应时，优先排查供电连接；若疑似静电导致，可断电后按电源键释放静电再重试。"
+      ],
+      "metadata": {
+        "topic": "power_on_failure",
+        "difficulty": "easy",
+        "source_title": "开机之后无任何反应怎么办？"
+      },
+      "retrieved_titles": [
+        "开机之后无任何反应怎么办？",
+        "为什么 Word 2010-2007 中插入的图片都变成空白框了？",
+        "联想手机A288t无线网络无法连接或无法上网如何解决",
+        "Windows 7系统下天气小工具提示“您所在的地区无法使用服务”无法正常使用的案例分析",
+        "暴风影音在播放高清视频时占用的CPU高怎么办-"
+      ],
+      "retrieved_paths": [
+        "D:\\ITF_improve\\bj250716\\its_multi_agent\\backend\\knowledge\\data\\crawl\\0004-开机之后无任何反应怎么办？.md",
+        "D:\\ITF_improve\\bj250716\\its_multi_agent\\backend\\knowledge\\data\\crawl\\0016-为什么 Word 2010-2007 中插入的图片都变成空白框了？.md",
+        "D:\\ITF_improve\\bj250716\\its_multi_agent\\backend\\knowledge\\data\\crawl\\0433-联想手机A288t无线网络无法连接或无法上网如何解决.md",
+        "D:\\ITF_improve\\bj250716\\its_multi_agent\\backend\\knowledge\\data\\crawl\\0643-Windows 7系统下天气小工具提示“您所在的地区无法使用服务”无法正常使用的案例分析.md",
+        "D:\\ITF_improve\\bj250716\\its_multi_agent\\backend\\knowledge\\data\\crawl\\0487-暴风影音在播放高清视频时占用的CPU高怎么办-.md"
+      ],
+      "query_backend": "in_memory_llamaindex",
+      "answer_relevancy": 0.2576309127391265,
+      "faithfulness": 0.5
+    },
+    {
+      "user_input": "如何去掉Outlook中的段落标记等符号？",
+      "response": "在Outlook中隐藏段落标记等符号，可通过以下步骤操作：\n\n**Outlook 2010版本：**\n1. 新建邮件后，点击顶部菜单栏的“文件”选项卡\n2. 选择“选项”进入设置界面\n3. 在左侧导航栏点击“邮件”，然后点击右侧的“编辑器选项”按钮\n4. 在弹出的窗口中找到“显示”设置区域\n5. 取消勾选“始终在屏幕上显示这些格式标记”列表中的“段落标记”选项\n\n**Outlook 2007版本：**\n1. 新建邮件时点击工具栏上的Office按钮\n2. 选择“编辑器选项”进入设置\n3. 在左侧功能列表中点击“显示”选项\n4. 取消勾选“段落标记”等不需要显示的格式符号\n\n此设置可同步隐藏其他编辑符号（如空格符、制表符等），仅保留文字内容显示。操作后邮件编辑界面将不再显示格式标记，但不会影响邮件实际发送效果。",
+      "retrieved_contexts": [
+        "# 知识库 10\n\n## 标题\n如何去掉Outlook中的段落标记等符号?\n\n## 问题描述\n在Outlook中新建邮件时会显示很多段落标记，使行文看上去不怎么整洁。文中讲述消除的方法。\n\n## 分类\n主类别: 预装软件\n子类别: Office软件\n\n## 关键词\noffice, outlook, 段落标记, 符号\n\n## 元信息\n创建时间:2024-12-15|版本:1.0\n\n## 解决方案\n**故障现象:**\n\n如何去掉 Outlook 中的段落标记等符号。\n\n**解决方案:**\n\n**如何去掉 Outlook 中的段落标记等符号**  \n  \n![](http://support.microsoft.com/Library/Images/2690803.png)\n\n只要在编辑器中将它们隐藏就行了。具体如下：\n\n#### 对于 Outlook 2010\n\n新建一份电子邮件，打开“**文件**”选项卡，单击“**选项**”。\n\n![](http://support.microsoft.com/Library/Images/2690804.png)\n\n在选项窗口左侧单击“**邮件**”，按一下“**编辑器选项**”按钮。\n\n![](http://support.microsoft.com/Library/Images/2690805.png)\n\n“**显示**”窗格右侧有一个“**始终在屏幕上显示这些格式标记**”列表，取消对“**段落标记**”的勾选。\n\n![](http://support.microsoft.com/Library/Images/2690806.png)\n\n#### 对于 Outlook 2007\n\n建立一封新的电子邮件，按一下 Office 按钮，单击“**编辑器选项**”。\n\n![](http://support.microsoft.com/Library/Images/2690807.png)\n\n从左侧窗格中单击“**显示**”，然后取消对“**段落标记**”的勾选。\n\n![](http://support.microsoft.com/Library/Images/2690808.png)\n\n**PS：**对于邮件中的其它编辑符号，都可以通过取消相应勾选将其消除\n\n<!-- 文档主题：如何去掉Outlook中的段落标记等符号? (知识库库编号: 10) -->",
+        "文档来源:0040-如何控制 Internet Explorer 浏览器的进程数量？.md\n# 知识库 40\n\n## 标题\n如何控制 Internet Explorer 浏览器的进程数量？\n\n## 问题描述\n您希望了解有关如何控制、合并、减少这些 IEXPLORE.EXE 进程，使 Windows 在运行同时打开多个选项卡的 IE 9 或 IE 8 时使用尽量少的或唯一的 IEXPLORE.EXE 进程，那么您可以参考本文提供的信息。\n\n## 分类\n主类别: 操作系统故障\n子类别: 浏览器\n\n## 关键词\n控制, ie, 浏览器, 进程, 数量\n\n## 元信息\n创建时间:2024-12-15|版本:1.0",
+        "# 知识库 184\n\n## 标题\n智能电视遥控器比较费电怎么办？\n\n## 问题描述\n联想智能电视遥控器的耗电情况说明。\n\n## 分类\n主类别: 接口与外置设备\n子类别: 智能电视游戏手柄\n\n## 关键词\n联想, 智能电视, 特点, 功能, 网络, 高清, 视频, 遥控器, 电池, 电量\n\n## 元信息\n创建时间:2024-12-15|版本:1.0\n\n## 解决方案\n1、如果您使用的是[蓝牙](/detail/kd_17350.html)智能遥控器，进行语音输入、体感游戏以及网页浏览会加快遥控器对电池电量的消耗，故若您进行了较多的此类操作，您有可能需要经常更换遥控器或游戏手柄的电池，并不是故障。\n\n2、另外，请确保购买的电池是正品。如果仅做一些简单的观看电视操作而耗电仍然很快（一周左右没电），您可以向联想电视客服反馈处理。\n\n<!-- 文档主题：智能电视遥控器比较费电怎么办？ (知识库库编号: 184) -->",
+        "# 知识库 753\n\n## 标题\n纯平显示器与平面直角显示器的区别及判断方法\n\n## 问题描述\n本文介绍纯平与平面直角显示器的简易判断方法和应用常识。\n\n## 分类\n主类别: 产品介绍\n子类别: 用户手册\n\n## 关键词\n显示器, 纯平, 显像管, 屏幕\n\n## 元信息\n创建时间:2024-12-15|版本:1.0\n\n## 解决方案\n **问题描述** ：\n\n纯平显示器与平面直角显示器的区别及判断方法 。  \n  \n**解决方案** ：\n\n1、简易判断方法：联想纯平显示器会在外包装箱上标有\"XX寸（高亮）纯平显示器＂字样，而平面直角没有此字样，同时用肉眼观察也可以看出平面直角的屏幕四角是略微圆弧的，而纯平四角是直角的。   \n2、应用常识:平面直角显像管--它的屏幕实际上也是一个球体的一部分，只是这个球体的直径很大，使得屏幕看起来几乎是个平面。它消除了图象的变形，并避免了灯光的反射。纯平面的显像管--纯平显像管的优点在于画面清晰度高、画面扭曲度减少、色彩更真实、可视角度增大等目前主流的纯平显像管也可以被分为荫罩式（ShadowMask）显像管和荫栅式（Aperture-Grille）两种。\n\n<!-- 文档主题：纯平显示器与平面直角显示器的区别及判断方法 (知识库库编号: 753) -->",
+        "[5.png](https://chinakb.lenovo.com.cn/ueditor/php/upload/image/20210526/1622018361421939.png \"1622018361421939.png\")\n\n因不同触控板厂商的设置方法与界面不同，以下列举三种常见品牌触控板设置方式，请您参考:  \n  \n[**![6.jpg](https://chinakb.lenovo.com.cn/ueditor/php/upload/image/20210526/1622018452379733.jpg \"1622018452379733.jpg\")ALPS品牌的触控板**](#A) **[![7.jpg](https://chinakb.lenovo.com.cn/ueditor/php/upload/image/20210526/1622018463266231.jpg \"1622018463266231.jpg\")ELANTECH(KTP)品牌的触控板](#E)  \n  \n[![8-.jpg](https://chinakb.lenovo.com.cn/ueditor/php/upload/image/20210526/1622018470542479.jpg \"1622018470542479.jpg\")Synaptics品牌的触控板](#S)**\n\n**ALPS品牌的触控板禁用方法：**\n\n单击“**其他**”选项，取消“**使用触控板和PS/2鼠标**”前的 复选框，单击确定即可。如下图所示：\n\n![如何禁用触控板-第5张图.png](https://chinakb.lenovo.com.cn/ueditor/php/upload/image/20210521/1621563535159921.png \"1621563535159921.png\")\n\n**ELANTECH(KTP)品牌的触控板禁用方法：**\n\n![8.jpg](https://chinakb.lenovo.com.cn/ueditor/php/upload/image/20210526/1622018525206569.jpg \"1622018525206569.jpg\")\n\n**Synaptics品牌的触控板如何禁用：**\n\n![9.jpg](https://chinakb.lenovo.com.cn/ueditor/php/upload/image/20210526/1622018536480822.jpg \"1622018536480822.jpg\")\n\n<!-- 文档主题：联想笔记本电脑如何禁用触控板 (知识库库编号: 404) -->"
+      ],
+      "reference": "在 Outlook 编辑器的显示设置中取消“段落标记”勾选即可隐藏这些编辑符号；Outlook 2010 可从“文件-选项-邮件-编辑器选项”进入，Outlook 2007 可从 Office 按钮中的“编辑器选项”进入。",
+      "reference_contexts": [
+        "Outlook 中显示的段落标记等符号，本质上是编辑标记；进入编辑器显示设置后取消对应选项即可隐藏。"
+      ],
+      "metadata": {
+        "topic": "outlook_format_marks",
+        "difficulty": "easy",
+        "source_title": "如何去掉Outlook中的段落标记等符号？"
+      },
+      "retrieved_titles": [
+        "如何去掉Outlook中的段落标记等符号-",
+        "如何控制 Internet Explorer 浏览器的进程数量？",
+        "智能电视遥控器比较费电怎么办？",
+        "纯平显示器与平面直角显示器的区别及判断方法",
+        "联想笔记本电脑如何禁用触控板"
+      ],
+      "retrieved_paths": [
+        "D:\\ITF_improve\\bj250716\\its_multi_agent\\backend\\knowledge\\data\\crawl\\0010-如何去掉Outlook中的段落标记等符号-.md",
+        "D:\\ITF_improve\\bj250716\\its_multi_agent\\backend\\knowledge\\data\\crawl\\0040-如何控制 Internet Explorer 浏览器的进程数量？.md",
+        "D:\\ITF_improve\\bj250716\\its_multi_agent\\backend\\knowledge\\data\\crawl\\0184-智能电视遥控器比较费电怎么办？.md",
+        "D:\\ITF_improve\\bj250716\\its_multi_agent\\backend\\knowledge\\data\\crawl\\0753-纯平显示器与平面直角显示器的区别及判断方法.md",
+        "D:\\ITF_improve\\bj250716\\its_multi_agent\\backend\\knowledge\\data\\crawl\\0404-联想笔记本电脑如何禁用触控板.md"
+      ],
+      "query_backend": "in_memory_llamaindex",
+      "answer_relevancy": 0.46836576245283656,
+      "faithfulness": 1.0
+    },
+    {
+      "user_input": "如何修改 Microsoft Word 的默认样式？",
+      "response": "要修改 Microsoft Word 的默认样式，可按照以下步骤操作：\n\n1. **打开样式设置窗口**  \n   启动 Word 后，点击顶部菜单栏的“开始”选项卡，在“样式”选项组的右下角找到并单击小箭头按钮（或直接使用快捷键 **Ctrl+Alt+Shift+S**）。\n\n2. **进入管理样式界面**  \n   在弹出的“样式”窗口中，点击底部的“管理样式”按钮，打开管理样式设置界面。\n\n3. **调整默认格式**  \n   在“管理样式”窗口中，切换到“设置默认值”选项卡。此处可重新定义默认的中文字体、西文字体、字号、段落对齐方式、行距及段前段后间距等格式参数。\n\n4. **选择适用范围并保存**  \n   完成设置后，点击“确定”按钮，系统会提示选择新样式的适用范围（仅当前文档或所有新文档），根据需求选择后确认保存。\n\n若需恢复系统默认样式，可前往 Windows 资源管理器地址栏输入 **%appdata%\\microsoft\\templates**，删除其中的 **Normal.dotm** 文件，重启 Word 即可重置为初始样式设置。",
+      "retrieved_contexts": [
+        "# 知识库 8\n\n## 标题\n如何修改 Microsoft Word 的默认样式？\n\n## 问题描述\n修改 Microsoft Word 的默认样式的操作步骤。\n\n## 分类\n主类别: 预装软件\n子类别: Office软件\n\n## 关键词\noffice, Word, 默认样式, 办公软件\n\n## 元信息\n创建时间:2024-12-15|版本:1.0\n\n## 解决方案\n**故障现象：**\n\n修改 Microsoft Word 的默认样式。  \n  \n**解决方案：**\n\n打开Word，在“**开始**”选项卡“**样式**”选项组右下角单击小箭头按钮。如下图所示：\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/20120412/1334222838203_280.png)\n\n或者直接在键盘上按组合键“**Ctrl+Alt+Shift+s**”调出“**样式**”窗口，单击底部“**管理样式**”按钮。\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/20120412/1334222838203_22.png)\n\n在“**管理样式**”窗口中，切换到“**设置默认值**”选项卡。我们可以在这里重新设置文档的默认格式，包括中西文字体，字号，段落位置，段落间距等。完成设置后，选择新样式的适用范围，最后单击“**确定**”保存设置就可以了。\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/20120412/1334222838203_973.png)\n\n有同学问：如果日后又想使用系统默认的样式，怎么还原回去？\n\n这个也简单的。在Windows资源管理器地址栏中输入路径**%appdata%\\\\microsoftemplates**，回车。找到并删除**Normal.dotm**，然后重新运行Word就可以回归默认样式了。\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/20120412/1334222838203_129.png) \n\n<!-- 文档主题：如何修改 Microsoft Word 的默认样式？ (知识库库编号: 8) -->",
+        "# 知识库 741\n\n## 标题\n“我的文档”误删除后如何恢复\n\n## 问题描述\n“我的文档”误删除后如何恢复\n\n## 分类\n主类别: 操作系统故障\n子类别: 系统应用操作\n\n## 关键词\n我的文档, 删除, 恢复, 操作系统\n\n## 元信息\n创建时间:2024-12-15|版本:1.0\n\n## 解决方案\n**解决方案 ：**\n\n1、以Win2000为例，资源管理器-->工具-->文件夹选项，再点击“查看”中“还原为默认值”后点击确定即可  。\n\n2、以WinXP为例，右击桌面-->显示属性-->桌面选项-->自定义桌面-->常规选项-->选中在桌面上显示“我的文档”即可。\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/uploadimages/2008-07-28/6soGn1hp0ukooRy4.jpg)\n\n<!-- 文档主题：“我的文档”误删除后如何恢复 (知识库库编号: 741) -->",
+        "# 知识库 335\n\n## 标题\n如何恢复QQ视频默认设置\n\n## 问题描述\n恢复QQ视频默认设置的方法。\n\n## 分类\n主类别: 第三方软件\n子类别: QQ\n\n## 关键词\nQQ, 默认设置, 密码, 管理, 设置, 显示, 硬件, Windows, 查看\n\n## 元信息\n创建时间:2024-12-15|版本:1.0\n\n## 解决方案\n**解决方案:**\n\n1、在QQ聊天窗口中，点击摄像头标识旁边的小箭头,弹出的下拉菜单中,点击“**视频设置**”；\n\n![](https://chinakb.lenovo.com.cn/ueditor/php/upload/image/20160331/1459424616958003.jpg)\n\n2、在弹出的“**语音视频**”对话框“**视频**”选项卡中，选择“**Lenovo EasyCamera**”（机型不同显示会有所不同），此时可以看到预览，然后点击“**画质调节**”按钮；\n\n![](https://chinakb.lenovo.com.cn/ueditor/php/upload/image/20160331/1459424616206534.jpg)\n\n注意：调整视频设置时一定要选择正确的视频设备如上图Lenovo EasyCamera，不能选择“**禁用**”，否则会提示“**启动摄像头失败，请检查驱动程序是否正确**”。\n\n3、在弹出的“**Tencent VQQ Video Capture属性**”对话框“**摄像头设置**”选项卡中，点击“**默认值**”回到默认设置；\n\n![](https://chinakb.lenovo.com.cn/ueditor/php/upload/image/20160331/1459424616226529.jpg)\n\n4、在弹出的“**Tencent VQQ Video Capture属性**”对话框“**高级选项**”选项卡中，点击“**默认值**”回到默认设置。\n\n![](https://chinakb.lenovo.com.cn/ueditor/php/upload/image/20160331/1459424616758344.jpg)\n\n<!-- 文档主题：如何恢复QQ视频默认设置 (知识库库编号: 335) -->",
+        "# 知识库 189\n\n## 标题\n智能电视中的天气预报如何修改默认城市？\n\n## 问题描述\n联想智能电视具有不少体贴的功能，天气预报就是一个，下面讲述智能电视中的天气预报如何修改默认城市？\n\n## 分类\n主类别: 操作系统故障\n子类别: 系统应用操作\n\n## 关键词\n联想, 智能电视, 特点, 功能, 网络, 高清, 视频, 天气预报, 默认\n\n## 元信息\n创建时间:2024-12-15|版本:1.0\n\n## 解决方案\n打开“设置”---“基本”，找到“城市设定”，可以修改。\n\n提示：有些机型，城市设定的位置偏下，可能要把设置项拉动到底部才能看到。\n\n<!-- 文档主题：智能电视中的天气预报如何修改默认城市？ (知识库库编号: 189) -->",
+        "[](https://webdoc.lenovo.com.cn/lenovowsi/20150105/1420428390834_905.jpg)![](https://webdoc.lenovo.com.cn/lenovowsi/20150105/1420428390834_130.jpg)\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/20150105/1420428390834_542.jpg)\n\n2、 非4.1版本的系统，可点击上一步“关于手机-系统更新”，更新系统至最新版（执行此操作后，手\n\n机内置存储空间会被[格式化](/detail/kd_17462.html)，所有数据会被清除，请先做好[备份](/detail/kd_17770.html)）\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/20150105/1420428390834_755.jpg)\n\n3、 完成升级操作后，通过路径“系统设置-存储-默认存储卡”可设置文件下载与软件安装的优先存储路径，\n\n点选“外置存储卡”（图中，因手机未插入SD卡，故无“外置存储卡”选项）即默认外置存储卡优先存储（需\n\n注意的是，会有部分软件不支持或安装至外置存储卡会出现异常）。\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/20150105/1420428390834_194.jpg)![](https://webdoc.lenovo.com.cn/lenovowsi/20150105/1420428390834_893.jpg)\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/20150105/1420428390834_145.jpg)![](https://webdoc.lenovo.com.cn/lenovowsi/20150105/1420428390834_531.jpg)\n\n4、 对于在设置默认存储路径前已安装的软件，可在完成上一步后，通过路径“系统设置-应用”，点击需要\n\n转移的应用后，再点击“移至外置存储卡”（需注意的是，一般手机预置的软件无法转移，也有部分软件不支\n\n持或转移后会出现异常）\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/20150105/1420428390834_782.jpg)![](https://webdoc.lenovo.com.cn/lenovowsi/20150105/1420428390834_348.jpg)\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/20150105/1420428390834_291.jpg)\n\n5、 如依然无法实现内置存储卡到外置存储卡的转移，可联系附近的[联想售后维修站点](http://appserver.lenovo.com.cn/LenovoMap/LenovoMap_Service.aspx)检测维修。\n\n<!-- 文档主题：联想手机S890如何将内置存储内的文件转移至外置存储卡 (知识库库编号: 428) -->"
+      ],
+      "reference": "打开 Word 的样式窗格，进入“管理样式”中的“设置默认值”，即可调整默认字体、字号、段落位置和段落间距；若要恢复系统默认样式，可删除 `%appdata%\\microsoft\\templates\\Normal.dotm` 后重启 Word。",
+      "reference_contexts": [
+        "Word 默认样式可在“管理样式”的“设置默认值”中修改；如需恢复出厂默认，可删除 Normal.dotm 模板。"
+      ],
+      "metadata": {
+        "topic": "word_default_style",
+        "difficulty": "easy",
+        "source_title": "如何修改 Microsoft Word 的默认样式？"
+      },
+      "retrieved_titles": [
+        "如何修改 Microsoft Word 的默认样式？",
+        "“我的文档”误删除后如何恢复",
+        "如何恢复QQ视频默认设置",
+        "智能电视中的天气预报如何修改默认城市？",
+        "联想手机S890如何将内置存储内的文件转移至外置存储卡"
+      ],
+      "retrieved_paths": [
+        "D:\\ITF_improve\\bj250716\\its_multi_agent\\backend\\knowledge\\data\\crawl\\0008-如何修改 Microsoft Word 的默认样式？.md",
+        "D:\\ITF_improve\\bj250716\\its_multi_agent\\backend\\knowledge\\data\\crawl\\0741-“我的文档”误删除后如何恢复.md",
+        "D:\\ITF_improve\\bj250716\\its_multi_agent\\backend\\knowledge\\data\\crawl\\0335-如何恢复QQ视频默认设置.md",
+        "D:\\ITF_improve\\bj250716\\its_multi_agent\\backend\\knowledge\\data\\crawl\\0189-智能电视中的天气预报如何修改默认城市？.md",
+        "D:\\ITF_improve\\bj250716\\its_multi_agent\\backend\\knowledge\\data\\crawl\\0428-联想手机S890如何将内置存储内的文件转移至外置存储卡.md"
+      ],
+      "query_backend": "in_memory_llamaindex",
+      "answer_relevancy": 0.4579629580554226,
+      "faithfulness": null
+    },
+    {
+      "user_input": "Visio 2010/2007 形状面板不见了怎么办？",
+      "response": "在 Visio 2010/2007 中，若形状面板消失，可通过以下步骤恢复：  \n1. 打开 Visio 后，单击顶部菜单栏的“**视图**”选项卡。  \n2. 在“**显示**”区域找到“**任务窗格**”按钮，点击后从下拉菜单中选择“**形状**”。  \n3. 此时窗口左侧将重新显示形状面板。  \n\n若操作后仍无法显示，可尝试重启软件或检查是否因界面布局调整导致面板被隐藏。",
+      "retrieved_contexts": [
+        "# 知识库 200\n\n## 标题\n联想智能电视乐商店功能介绍及如何下载应用\n\n## 问题描述\n本文提供了联想智能电视乐商店功能介绍及下载应用指导。\n\n## 分类\n主类别: 预装软件\n子类别: 其他随机软件\n\n## 关键词\n联想, 智能电视, 乐商店, 应用下载\n\n## 元信息\n创建时间:2024-12-15|版本:1.0\n\n## 解决方案\n**相关文章**：\n\n[SD卡](/detail/kd_17461.html)（品式SDHC，32G以下）进入乐商店，点击应用图标；\n\n![](https://chinakb.lenovo.com.cn/ueditor/php/upload/image/20160115/1452846975230983.jpg)\n\n点击安装即可。\n\n![](https://chinakb.lenovo.com.cn/ueditor/php/upload/image/20160115/1452846976795711.jpg)\n\n安装过之后的软件会在右上角有消息提示已安装完成，这时候可以通过“更多”中找到并打开该软件了。\n\n![](https://chinakb.lenovo.com.cn/ueditor/php/upload/image/20160115/1452846976624163.jpg)\n\n**注**：以上功能需要联网状态下使用。\n\n<!-- 文档主题：联想智能电视乐商店功能介绍及如何下载应用 (知识库库编号: 200) -->",
+        "# 知识库 456\n\n## 标题\n联想手机P770充电总是显示不满如何解决\n\n## 问题描述\n联想手机P770充电总是显示不满，此情况与ROM有关，可参考下面方法解决。\n\n## 分类\n主类别: 操作系统故障\n子类别: 系统应用操作\n\n## 关键词\n联想手机, P770, 充电, 充不满电\n\n## 元信息\n创建时间:2024-12-15|版本:1.0\n\n## 解决方案\n**问题描述:**\n\nP770在使用过程当中出现充电总是显示不满的情况。\n\n**解决方案：**\n\n1、确认您所使用的充电器为购机时标配的充电器\n\n2、确定P770系统是否为P770\\_S124\\_130201或以上的版本，系统版本可通过路径“系统设置-关于手机-版本信息”查询\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/20150106/1420534952880_192.jpg)![](https://webdoc.lenovo.com.cn/lenovowsi/20150106/1420534952880_201.jpg)\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/20150106/1420534952880_195.jpg)\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/20150106/1420534952880_540.jpg)\n\n3、P770为P770\\_S124\\_130201之前的版本，可参照路径“系统设置-关于手机-系统更新”进行系统版本的升级。\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/20150106/1420534952880_758.jpg)![](https://webdoc.lenovo.com.cn/lenovowsi/20150106/1420534952880_854.jpg)\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/20150106/1420534952880_341.jpg)\n\n4、如果担心自行升级会存在风险或已确定手机系统为较新的版本（A765e\\_1\\_S\\_2\\_SS\\_0070\\_130222及以上）后，请到附近的联想手机售后维修站点进行升级或者维修。\n\n<!-- 文档主题：联想手机P770充电总是显示不满如何解决 (知识库库编号: 456) -->",
+        "# 知识库 16\n\n## 标题\n为什么 Word 2010/2007 中插入的图片都变成空白框了？\n\n## 问题描述\n修改Word 设置来解决Word 2010中插入的图片变成白框的问题。\n\n## 分类\n主类别: 预装软件\n子类别: Office软件\n\n## 关键词\n插入图片, Word 2010, Word 2007, 白框\n\n## 元信息\n创建时间:2024-12-15|版本:1.0\n\n## 解决方案\n**故障现象：**在 Word 2010/2007 中点击“插入-图片”向文档中添加图片时，图片仅显示为空白边框？为什么会这样呢？\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/20120507/1336357483656_708.png)\n\n**解决方案：**\n\n当内存不够或者 Word 程序崩溃时，可能会导致系统对程序默认设置的更改。对于上面这个问题，我们需要检查一下“**显示图片框**”项是否被勾选。\n\n对于 Word 2010，单击“**文件-选项**”。\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/20120507/1336357483656_132.png)\n\n对于 Word 2007，按一下 Office 按钮，然后单击“**Word 选项**”。\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/20120507/1336357483656_700.png)\n\n单击“**高级**”，然后从右边细节窗口找到“**显示文档内容**”部分，取消对“**显示图片框**”的勾选 。按“**确定**”保存更改。\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/20120507/1336357483656_156.png)\n\n现在图片就能正常显示了。\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/20120507/1336357483656_203.png)\n\n来源：[微软知识库](http://support.microsoft.com/kb/2701841/zh-cn)\n\n<!-- 文档主题：为什么 Word 2010/2007 中插入的图片都变成空白框了？ (知识库库编号: 16) -->",
+        "# 知识库 19\n\n## 标题\nVisio 2010/2007 形状面板不见了怎么办？\n\n## 问题描述\n本文介绍了Visio 2010/2007 形状面板消失的解决方法。\n\n## 分类\n主类别: 第三方软件\n子类别: 其他\n\n## 关键词\nVisio2010, Visio2007, 形状面板\n\n## 元信息\n创建时间:2024-12-15|版本:1.0\n\n## 解决方案\n形状面板Visio 打开后，通常窗口左侧会有一个“形状”面板，我们可以方便地从中选择需要的形状。\n\nVisio 打开后，通常窗口左侧会有一个**形状**”面板，我们可以方便地从中选择需要的形状。有时为了获得更大的版面空间或者不小心关闭了形状面板，怎么把它重新调出来？\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/20120604/1338796562875_427.png)\n\n我们可以从**视图**”中把它找出来。\n\n打开 Visio 后在**文件**”菜单右侧会有一系列[选项卡](/detail/kd_17796.html)：开始、插入、设计等等。单击打开**视图**”选项卡。\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/20120604/1338796562875_117.png)\n\n在**显示**”栏单击**任务窗格**”，从下拉菜单中点击**形状**”。\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/20120604/1338796562875_858.png)\n\n窗口左侧就会列出形状面板啦。\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/20120604/1338796562875_513.png)\n\n类似的，在 Visio 2007 中可以通过同样的操作来唤出形状面板。\n\n![](https://webdoc.lenovo.com.cn/lenovowsi/20120604/1338796562875_456.png)\n\n来源：[微软知识库](http://support.microsoft.com/kb/2718393/zh-cn)\n\n<!-- 文档主题：Visio 2010/2007 形状面板不见了怎么办？ (知识库库编号: 19) -->",
+        "# 知识库 193\n\n## 标题\n智能电视开不了机并且指示灯一直亮红灯怎么办？\n\n## 问题描述\n通过遥控器上的电源键和机身右侧的电源按钮都可以打开智能电视。\n\n## 分类\n主类别: 显示相关\n子类别: 黑屏\n\n## 关键词\n智能电视, 电视, 无法开机, 指示灯\n\n## 元信息\n创建时间:2024-12-15|版本:1.0\n\n## 解决方案\n请分别按遥控器上的电源键和电视机身右侧的电源按钮尝试开机，如仍无法开机，请联系联想客服人员上门检查。\n\n<!-- 文档主题：智能电视开不了机并且指示灯一直亮红灯怎么办？ (知识库库编号: 193) -->"
+      ],
+      "reference": "在 Visio 的“视图”选项卡中打开任务窗格，再选择“形状”，即可重新显示左侧形状面板；Visio 2007 也可以通过类似方式将形状面板调出。",
+      "reference_contexts": [
+        "Visio 左侧形状面板丢失时，可通过“视图-任务窗格-形状”重新显示。"
+      ],
+      "metadata": {
+        "topic": "visio_shapes_panel",
+        "difficulty": "easy",
+        "source_title": "Visio 2010/2007 形状面板不见了怎么办？"
+      },
+      "retrieved_titles": [
+        "联想智能电视乐商店功能介绍及如何下载应用",
+        "联想手机P770充电总是显示不满如何解决",
+        "为什么 Word 2010-2007 中插入的图片都变成空白框了？",
+        "Visio 2010-2007 形状面板不见了怎么办？",
+        "智能电视开不了机并且指示灯一直亮红灯怎么办？"
+      ],
+      "retrieved_paths": [
+        "D:\\ITF_improve\\bj250716\\its_multi_agent\\backend\\knowledge\\data\\crawl\\0200-联想智能电视乐商店功能介绍及如何下载应用.md",
+        "D:\\ITF_improve\\bj250716\\its_multi_agent\\backend\\knowledge\\data\\crawl\\0456-联想手机P770充电总是显示不满如何解决.md",
+        "D:\\ITF_improve\\bj250716\\its_multi_agent\\backend\\knowledge\\data\\crawl\\0016-为什么 Word 2010-2007 中插入的图片都变成空白框了？.md",
+        "D:\\ITF_improve\\bj250716\\its_multi_agent\\backend\\knowledge\\data\\crawl\\0019-Visio 2010-2007 形状面板不见了怎么办？.md",
+        "D:\\ITF_improve\\bj250716\\its_multi_agent\\backend\\knowledge\\data\\crawl\\0193-智能电视开不了机并且指示灯一直亮红灯怎么办？.md"
+      ],
+      "query_backend": "in_memory_llamaindex",
+      "answer_relevancy": 0.7514031277130693,
+      "faithfulness": null
+    }
+  ]
+}
