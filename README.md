@@ -104,8 +104,6 @@ its_multi_agent/
 ├─ front/
 │  ├─ agent_web_ui/         # 对话前端
 │  └─ knowlege_platform_ui/ # 知识库平台前端
-├─ 项目面试报告.md
-└─ RAG质量评估报告.md
 ```
 
 ## 关键接口
